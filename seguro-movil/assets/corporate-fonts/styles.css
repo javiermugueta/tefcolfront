@@ -1,0 +1,278 @@
+/* resets */
+*{margin:0; padding:0}
+.clear{clear:both}
+a img{border:none}
+a{text-decoration:none}
+ul{list-style:none}
+
+div.custom{
+	float:left;
+	width: 100%;
+}
+/* end resets */
+
+@font-face {
+  font-family: 'Telefonica Headline Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TelefonicaFonts/TelefonicaHeadline-Light.ttf'), format('ttf');
+}
+@font-face {
+  font-family: 'Telefonica text';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TelefonicaFonts/TelefonicaText-Regular.ttf'), format('ttf');
+}
+
+body{
+	margin:0px;
+	background:#000;
+	font-family: Verdana;
+	font-size:12px;
+	color: #666;
+}
+
+.full-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main_column {
+	width:1005px;
+	min-height:900px;
+	background:#000;
+	background-image:url(../images/main_column_bg.png);	
+	font-family: Verdana;
+}
+
+#header {
+	width:100%;
+	height:141px;
+	background-image:url(../images/bg_header.png);	
+	font-family: 'Telefonica Headline Light', Verdana;
+}
+#header .logo{
+	float:left;
+	font-weight: bold;
+    margin: 37px 0 0 140px;
+	
+	font-size:15px;
+}
+#header .top_menu{
+	float: right;
+    font-size: 20px;
+    margin: 65px 43px 0 0;
+	font-family: 'Telefonica text', Verdana;
+}
+
+#header .header_bottom{
+	width:920px;
+	margin:61px auto auto;
+	padding-left:5px;
+	color: #FFFFFF;
+}
+#header .header_bottom .breadcrumbs .showHere
+,#header .header_bottom .breadcrumbs .showHere *
+,#header .header_bottom .breadcrumbs a.pathway
+,span.pathway a{
+	color: #52C1DF;
+}
+
+#header .header_bottom .titre_1{
+	font-size: 45px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+#content_top {
+	width:925px;
+	height:42px;
+	margin-top:102px;
+	background-image:url(../images/bg_content_top.png);
+    
+}
+#content{
+	width:895px;/*925 - 30px*/
+	height:440px;/*470 - 30px*/
+	background-image:url(../images/bg_content.png);
+	color: #666;
+	padding:15px 15px;
+}
+
+#content h2, #content .titre_2 {
+	font-weight: normal;
+	font-size: 24px;
+	margin-bottom: 34px;
+}
+
+#content p {
+	color: #666;
+	line-height: 1.7em;
+}
+
+#main_content{
+	float:right;
+	width:630px;/*700 - 70px*/
+	height:367px;/*441 - 74px*/
+	background:#FFF;
+	padding:37px 40px 37px 35px;
+	overflow-x: hidden;
+    overflow-y: auto;
+}
+/*
+#content_bottom {
+	width:925px;
+}*/
+
+#footer{
+	width:100%;
+	height:95px;
+	margin-top:50px;
+	background-image:url(../images/bg_footer2.png);	
+}
+
+
+/*Menu*/
+
+ul.menu> li {
+    color:#53c2df;
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+   vertical-align: middle;
+}
+
+.left_menu{
+	float:left;
+	width:170px;
+	height:441px;
+}
+.left_menu ul.menu, .left_menu ul.menu li, .left_menu ul.menu li a{
+	width:100%;
+	display:block;
+}
+ul.menu li a{
+	padding: 0 9px;
+    background: url("../images/menu_spacer.png") no-repeat right center transparent;
+}
+
+div.bottom_menu ul.menu li a, div.bottom_menu ul.menu li.copy_right{
+	background: url("../images/menu_spacer_bottom.png") no-repeat right center transparent;
+}
+ul.menu li a.last, ul.menu >li:last-child a, div.bottom_menu ul.menu li a.last, div.bottom_menu ul.menu >li:last-child  a, .left_menu ul.menu li a{
+    background: none;
+}
+.left_menu ul.menu li {
+    background: url("../images/side_li_bg.png") no-repeat 5px bottom transparent;
+	height:30px;
+	line-height:30px;
+}
+
+
+ul.menu li a {
+    color:#53c2df;
+	text-decoration:none;
+}
+div.bottom_menu ul.menu li, div.bottom_menu ul.menu li a {
+	color:#FFF;
+}
+ul.menu li.active a, ul.menu li a:hover{
+	text-decoration:none;
+	color:#FFF;
+}
+.left_menu ul.menu li.active a, .left_menu ul.menu li a:hover{
+	text-decoration:none;
+	/*color:#FFF;*/
+	color:#666;
+}
+
+
+div.bottom_menu li.copy_right {
+	padding: 0 9px 0;
+	background-position:right top;
+}
+div.bottom_menu {
+	padding: 50px 0 0 40px;
+}
+div.bottom_menu *{
+	color:#FFF;
+}
+
+.top_menu > ul > li.parent > ul
+{
+	display: none;
+    margin: 3px 0 0 -1px;
+    position: absolute;
+    width: 185px;
+	font-size: 13px;
+	padding: 10px 3px 14px 3px;
+	background:#00212E;
+}
+.top_menu > ul > li.parent:hover >ul
+{
+	display:block;
+	z-index:100;
+}
+.top_menu > ul > li.parent> ul li
+{
+	display: block;
+    float: left;
+    width: 100%;
+}
+.top_menu > ul > li.parent> ul li a
+{
+	background:none;
+	width:100%;
+	display:block;
+	padding: 0 9px;
+	color:#53C2DF;
+}
+.top_menu > ul > li.parent> ul li.current a, .top_menu > ul > li.parent> ul li:hover a
+{
+	color:#FFF;
+}
+/*End menu*/
+
+/*MAP TITLE*/
+div.map_title{
+	padding-left:10px;
+	height:43px;
+	position:relative;
+}
+div.map_title.top{
+	background: url("../images/map_title_top.png") no-repeat 0 50%;
+}
+div.map_title.bottom{
+	background: url("../images/map_title_bottom.png") no-repeat;
+}
+
+div.map_title.top div.r{
+	background: url("../images/map_title_top.png") no-repeat 100% 50%;
+}
+div.map_title.bottom div.r{
+	background: url("../images/map_title_bottom.png") no-repeat 100% 50%;
+}
+div.map_title div.r{
+	float:left;
+	padding-right:10px;
+	height:43px;
+	min-width:80px;
+}
+
+div.map_title div.r span{
+	display:block;
+	height:43px;
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+}
+div.map_title.top div.r span{
+	background: url("../images/fleche_top.png") no-repeat 50% 100%;
+	line-height:34px;
+}
+div.map_title.bottom div.r span{
+	background: url("../images/fleche_bottom.png") no-repeat 50% 0;
+	line-height:52px;
+}
+/*END MAP TITLE*/

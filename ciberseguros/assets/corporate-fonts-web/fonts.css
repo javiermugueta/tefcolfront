@@ -1,0 +1,81 @@
+/*
+Hoja de estilos para tipografias corporativas web
+*/
+
+
+@font-face {
+	font-family: 'TelefonicaWebBold';
+	src: local('☺'),
+		 url('bold/TelefonicaWeb-Bold.eot') format('embedded-opentype'),
+		 url('bold/TelefonicaWeb-Bold.woff2') format('woff2'),
+		 url('bold/TelefonicaWeb-Bold.woff') format('woff'),
+		 url('bold/TelefonicaWeb-Bold.svg#TelefonicaWeb-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TelefonicaCapWebRegular';
+	src: local('☺'),
+		 url('cap/TelefonicaCapWeb-Regular.eot') format('embedded-opentype'),
+		 url('cap/TelefonicaCapWeb-Regular.woff2') format('woff2'),
+		 url('cap/TelefonicaCapWeb-Regular.woff') format('woff'),
+		 url('cap/TelefonicaCapWeb-Regular.svg#TelefonicaCapWeb-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TelefonicaWebExtraLight';
+	src: local('☺'),
+		 url('extraLight/TelefonicaWeb-ExtraLight.eot') format('embedded-opentype'),
+		 url('extraLight/TelefonicaWeb-ExtraLight.woff2') format('woff2'),
+		 url('extraLight/TelefonicaWeb-ExtraLight.woff') format('woff'),
+		 url('extraLight/TelefonicaWeb-ExtraLight.svg#TelefonicaWeb-ExtraLight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TelefonicaWebHand';
+	src: local('☺'),
+		 url('hand/TelefonicaWeb-Hand.eot') format('embedded-opentype'),
+		 url('hand/TelefonicaWeb-Hand.woff2') format('woff2'),
+		 url('hand/TelefonicaWeb-Hand.woff') format('woff'),
+		 url('hand/TelefonicaWeb-Hand.svg#TelefonicaWeb-Hand') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TelefonicaWebLight';
+	src: local('☺'),
+		 url('light/TelefonicaWeb-Light.eot') format('embedded-opentype'),
+		 url('light/TelefonicaWeb-Light.woff2') format('woff2'),
+		 url('light/TelefonicaWeb-Light.woff') format('woff'),
+		 url('light/TelefonicaWeb-Light.svg#TelefonicaWeb-Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TelefonicaWebRegular';
+	src: local('☺'),
+		 url('regular/TelefonicaWeb-Regular.eot') format('embedded-opentype'),
+		 url('regular/TelefonicaWeb-Regular.woff2') format('woff2'),
+		 url('regular/TelefonicaWeb-Regular.woff') format('woff'),
+		 url('regular/TelefonicaWeb-Regular.svg#TelefonicaWeb-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TelefonicaWebRegularItalic';
+	src: local('☺'),
+		 url('regularItalic/TelefonicaWeb-RegularItalic.eot') format('embedded-opentype'),
+		 url('regularItalic/TelefonicaWeb-RegularItalic.woff2') format('woff2'),
+		 url('regularItalic/TelefonicaWeb-RegularItalic.woff') format('woff'),
+		 url('regularItalic/TelefonicaWeb-RegularItalic.svg#TelefonicaWeb-RegularItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

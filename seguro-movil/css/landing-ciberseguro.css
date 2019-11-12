@@ -1,0 +1,172 @@
+header.fixed-header{padding-top: 0;}
+header a { font-size: 15px;}
+header ul.nav{padding-top: 7px;}
+header .sub-header{background: #00a9e0;color:#fff;height: 40px;display: flex; align-items: center;}
+header .sub-header ul{ display: flex; justify-content: space-around;}
+header .sub-header ul li{font-size: 12px;line-height: 1;}
+header .sub-header ul li b{font-family: 'TelefonicaWeb-Bold';}
+header .sub-header ul li a{font-family: 'TelefonicaWeb-Light';font-size: 12px;color: #fff;}
+header .sub-header .container>.row{padding-top: 0;}
+header .sub-header .box-wrapper{ background: rgba(0, 0, 0, 0.07);padding: 5px;border-radius: 5px;}
+header .sub-header .container-ico-wrapper {padding-left: 25px;}
+header .sub-header .container-ico-wrapper .ico-wrapper {color: rgba(255, 255, 255, 0.4); top: -4px;}
+section.slider-cyber:before{background: none;}
+section.slider-cyber-que:before{
+    background: url(../images/ciber/back-slider-que-es-seguro-ciberseguro.jpg) 0 0 no-repeat #fff;
+    background-size: 925px;
+    padding: 0;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-left: -90px;
+}
+section.slider-cyber .caja-slider {width: 100%; float: none;}
+section.slider-cyber-que .caja-slider { width: 60%; float: right;}
+section.slider-cyber h2 {color: #ffffff;}
+section.slider-cyber h1 {font-size: 55px;}
+section.slider-cyber-home h1, section.slider-cyber-home h2{text-shadow: 0px 2px 1px rgba(0,0,0,.23);}
+section.slider-cyber-que h1 {font-size: 44px;}
+.btn-prox{ color: #5bc500!important; background-color: #fff!important; border: 1px dashed #5bc500!important;}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {color: #00a9e0;text-decoration: none; background-color: transparent; outline: 0;}
+.dropdown-menu>li.contrata>a:focus{color:#fff!important;}
+.dropdown-menu>li.contrata:hover a.dropdown-toggle{color:#00a9e0!important;}
+.box-seguros{border: 1px solid #00a9e0; padding: 15px;display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+.row-seguros, .row-seguros .items-seguros{display: flex;}
+.row-seguros .btn-info{font-size: 20px;}
+
+.bg_video{position: absolute; right: 0; top: 0;min-width: 100%;min-height: 500px; z-index: -1;}
+video#bgvid {background-size: cover;}
+
+/*section#s-video{background: url(/images/ciber/back-video.png) no-repeat center center transparent; background-size: cover;min-height: 400px;color:#fff;}*/
+section#s-video .ico-play{font-size: 100px;}
+section#s-video p{font-size: 45px;font-family: 'TelefonicaWeb-Light';}
+
+.row-contacto-img {
+    background: url(../images/ciber/ima-telefono02-min.jpg) no-repeat 0 0 transparent;
+    background-size: cover;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow:none;
+    box-shadow: none;
+}
+ul.dropdown-menu .ico-wrapper{color:#00a9e0; }
+ul li ul.dropdown-menu{-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175); box-shadow: 0 6px 12px rgba(0,0,0,.175);min-width: 290px;padding: 15px;}
+ul li:hover ul.dropdown-menu{z-index: -1;}
+ul li ul.dropdown-menu li{padding: 7px 0;}
+ul li ul.dropdown-menu li a{color: #333!important;font-size: 17px;}
+ul li ul.dropdown-menu li:after{border-bottom:1px solid #00a9e0;content:"";height: 1px;width: 100%; display: block; padding-top: 5px;}
+ul li ul.dropdown-menu li:last-child:after{border-bottom: none;padding-top: 0;}
+/*
+.dropdown-submenu{position:relative;border:none;}
+.dropdown-submenu>.dropdown-menu{margin-top:-6px;margin-left:-1px;}
+.dropdown-submenu:hover>.dropdown-menu{display:block;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-left-color:#cccccc;margin-top:8px;margin-right:-10px;border-top: .2em solid; border-right: .2em solid transparent; border-left: .2em solid transparent;}
+
+}
+.dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;}
+*/
+
+
+@media only screen and  (max-width: 1100px) {
+   header nav li a {padding-right: 7px!important; padding-left: 7px!important; font-size: 12px;}
+}
+
+@media only screen and  (max-width: 980px) {
+    header .sub-header .our-i {display: none!important;}
+    /*header .sub-header .list-inline{min-height: 15px;}*/
+   .row-seguros, .row-seguros .items-seguros{display: block;}
+   .row-seguros-3,.row-seguros-3 .items-seguros{display: flex;}
+}
+
+
+@media only screen and  (max-width: 768px) {
+
+    /*.navbar-collapse ul.nav {
+        float: none!important;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 15px;
+    }*/
+
+    /*ul li ul.dropdown-menu{position: relative;box-shadow: none; width: 100%;}
+    ul li ul.dropdown-menu li, ul.dropdown-menu li{width: 290px; margin: 0 auto;}
+    ul.dropdown-menu li a{display: inline-table;}*/    
+
+    section.slider-cyber .caja-slider {width: 100%; float: none;}
+}
+
+@media only screen and  (max-width: 767px) {
+
+   header .sub-header .box-wrapper span{display: none!important;}
+}
+
+@media only screen and  (max-width: 690px) {
+
+  .row-seguros-3,.row-seguros-3 .items-seguros{display: block;}
+}
+
+@media only screen and  (max-width: 480px) {
+
+    main{padding-top: 95px;}
+    header .sub-header .container-ico-wrapper .ico-wrapper {top: 1px;}
+    ul li ul.dropdown-menu li, ul.dropdown-menu li{width: 100%;}
+    .row-seguros .items-seguros{padding-right: 15px!important;text-align: center;}
+    .row-seguros .items-seguros h3 {font-size: 2.6rem;}
+    section.services-cyber .btn-info {font-size: 20px;float: none!important;}
+    section.slider-cyber .btn-info{float: none!important;}
+    section.slider-cyber:before {background: none; height: auto;}
+    section.slider-cyber h1 {font-size: 35px;padding-top: 20px;}
+}
+/*
+@media (max-width: 990px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}*/
+
+

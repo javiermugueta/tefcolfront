@@ -1,0 +1,404 @@
+/* resets */
+*{margin:0; padding:0}
+.clear{clear:both}
+a img{border:none}
+a{
+    text-decoration:none;
+    color:#2784A7;}
+
+a:hover{text-decoration:underline; }
+ul{list-style:none}
+
+div.custom{
+    float:left;
+    width: 100%;
+}
+/* end resets */
+
+@font-face {
+    font-family: 'telefonica_headline_lightRg';
+    src: url('../../assets/fonts/telefonicaheadline-light-webfont.eot');
+    src: url('../../assets/fonts/telefonicaheadline-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/telefonicaheadline-light-webfont.woff') format('woff'),
+        url('../../assets/fonts/telefonicaheadline-light-webfont.ttf') format('truetype'),
+        url('../../assets/fonts/telefonicaheadline-light-webfont.svg#telefonica_headline_lightRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'telefonica_textbold';
+    src: url('../../assets/fonts/telefonicatext-bold-webfont.eot');
+    src: url('../../assets/fonts/telefonicatext-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/telefonicatext-bold-webfont.woff') format('woff'),
+        url('../../assets/fonts/telefonicatext-bold-webfont.ttf') format('truetype'),
+        url('../../assets/fonts/telefonicatext-bold-webfont.svg#telefonica_textbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'telefonica_textregular';
+    src: url('../../assets/fonts/telefonicatext-regular-webfont.eot');
+    src: url('../../assets/fonts/telefonicatext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/fonts/telefonicatext-regular-webfont.woff') format('woff'),
+        url('../../assets/fonts/telefonicatext-regular-webfont.ttf') format('truetype'),
+        url('../../assets/fonts/telefonicatext-regular-webfont.svg#telefonica_textregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+@font-face {
+  font-family: 'telefonica_headline_lightRg';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TelefonicaFonts/TelefonicaHeadline-Light.ttf'), format('ttf');
+}
+@font-face {
+  font-family: 'telefonica_textregular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TelefonicaFonts/TelefonicaText-Regular.ttf'), format('ttf');
+}
+*/
+body{
+    margin:0px;
+    background:#000;
+    font-family: 'telefonica_textregular',Arial,Helvetica,sans-serif;
+    font-size:13px;
+    color: #3A7485;
+}
+
+.full-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main_column {
+    min-height:100%;
+    background:#588dbf;
+    background-image:url(../../images/locale/father-son.jpg);	
+    font-family: 'telefonica_textregular',Arial,Helvetica,sans-serif;
+    background-size: cover;
+}
+
+#header {
+    width:1005px;
+    margin-left: auto;
+    margin-right: auto;	
+    height:111px;
+    background-image:url(../../images/locale/bgd_logo.png);	
+    font-family: 'telefonica_headline_lightRg',Arial,Helvetica,sans-serif;
+}
+#header .logo{
+    float:left;
+    font-weight: bold;
+    margin: 37px 0 0 50px;
+
+    font-size:15px;
+}
+#header #company_name {
+    float:right;
+    margin-top:40px;
+}
+
+.header_bottom{
+    width: 1005px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    color: #7E7D7D;
+}
+#header .header_bottom .breadcrumbs .showHere
+,#header .header_bottom .breadcrumbs .showHere *
+,#header .header_bottom .breadcrumbs a.pathway
+,span.pathway a{
+    color: #003245;
+}
+span.breadcrumbs.pathway {color:#00C6D7;}
+
+#header .header_bottom .titre_1{
+    font-size: 45px;
+    font-weight: normal;
+    margin-top: 0;
+}
+.top_menu{
+    font-size: 20px;
+    font-family: 'telefonica_textregular',Arial,Helvetica,sans-serif;
+    background-color: #FFF;
+    width: 1005px;
+    height: 46px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content_top {
+    width:925px;
+    /*height:42px;*/
+    margin-top:20px;
+    /*background-image:url(../../images/locale/bg_content_top.png);*/
+
+}
+#content{
+
+    /*Old stuff
+    width:895px;
+    height:440px;
+    */
+    width:975px;
+    min-height: 580px;
+    background-image:url(../../images/locale/bg_content.png);
+    color: #666;
+    padding:15px 15px;
+}
+
+#content h2, #content .titre_2 {
+    font-weight: normal;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #0C5C8A;
+    line-height: 0.9em;
+    letter-spacing: -1px;
+}
+
+#content p {
+    /*color: #3A7485;*/
+    color: #303235;
+    line-height: 1.3em;
+    font-size: 1.1em;
+    letter-spacing: 0;
+    margin: 5px 0 8px;
+    word-spacing: 0px;
+    text-align: justify;
+}
+
+#main_content{
+    float:right;
+    width:563px;
+    min-height: 493px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding:37px 1px 37px 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/*
+#content_bottom {
+        width:925px;
+}*/
+
+#footer{
+    width: 1005px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 95px;
+    background-image: url(../../images/locale/bgd_logo.png);
+}
+
+
+/*Menu*/
+
+ul.menu> li {
+    color:#003245;
+    display: block;
+    float: left;
+    height: 46px;
+    line-height: 1em;
+    vertical-align: middle;
+    padding-top:12px;
+}
+
+.left_menu{
+    float:left;
+    width:333px;
+    /*height:441px;*/
+    min-height: 441px;
+    margin-left: 8px;
+    margin-top: 39px;
+}
+.left_menu ul.menu, .left_menu ul.menu li, .left_menu ul.menu li a{
+    width:100%;
+    display:block;
+}
+ul.menu li a{
+    padding: 0 30px;
+    border-right: 1px solid #E2E3E4;
+    /*background: url("../../images/locale/menu_spacer.png") no-repeat right center transparent;*/
+}
+
+
+div.bottom_menu ul.menu li a, div.bottom_menu ul.menu li.copy_right{
+    margin-top: 11px;
+    background: url("../../images/locale/menu_spacer_bottom.png") no-repeat right top transparent;
+}
+ul.menu li a.last, ul.menu >li:last-child a, div.bottom_menu ul.menu li a.last, div.bottom_menu ul.menu >li:last-child  a, .left_menu ul.menu li a{
+    background: none;
+    border:none;
+}
+.left_menu ul.menu li {
+    background: url("../../images/locale/side_li_bg.png") no-repeat 5px bottom transparent;
+    height:30px;
+    line-height:30px;
+}
+
+
+ul.menu li a {
+    color:#003245;
+    text-decoration:none;
+}
+div.bottom_menu ul.menu li, div.bottom_menu ul.menu li a {
+    color:#FFF;
+}
+ul.menu li.active a, ul.menu li a:hover{
+    text-decoration:none;
+    color:#00C6D7;
+    border-right: 1px solid #E2E3E4;
+
+}
+ul.menu li.active a span{
+    border-bottom: 4px solid #00C6D7;
+    padding-bottom: 5px;
+}
+.left_menu ul.menu li.active a, .left_menu ul.menu li a:hover{
+    text-decoration:none;
+    /*color:#FFF;*/
+    color:#666;
+}
+ul.menu li a:hover{
+    color: #999;
+}
+
+
+div.bottom_menu li.copy_right {
+    padding: 0 9px 0;
+    background-position:right top;
+}
+div.bottom_menu {
+    padding: 35px 0 0 40px;
+    padding-left: 13%;
+}
+div.bottom_menu *{
+    color:#FFF;
+}
+
+.top_menu > ul > li.parent > ul
+{
+    display: none;
+    margin: 3px 0 0 -1px;
+    position: absolute;
+    width: 185px;
+    font-size: 13px;
+    padding: 10px 3px 14px 3px;
+    background:#00212E;
+}
+.top_menu > ul > li.parent:hover >ul
+{
+    display:block;
+    z-index:100;
+}
+.top_menu > ul > li.parent> ul li
+{
+    display: block;
+    float: left;
+    width: 100%;
+}
+.top_menu > ul > li.parent> ul li a
+{
+    background:none;
+    width:100%;
+    display:block;
+    padding: 0 9px;
+    color:#53C2DF;
+}
+.top_menu > ul > li.parent> ul li.current a, .top_menu > ul > li.parent> ul li:hover a
+{
+    color:#FFF;
+}
+/*End menu*/
+
+/*MAP TITLE*/
+div.map_title{
+    padding-left:10px;
+    height:43px;
+    position:relative;
+}
+div.map_title.top{
+    background: url("../../images/locale/map_title_top.png") no-repeat 0 50%;
+}
+div.map_title.bottom{
+    background: url("../../images/locale/map_title_bottom.png") no-repeat;
+}
+
+div.map_title.top div.r{
+    background: url("../../images/locale/map_title_top.png") no-repeat 100% 50%;
+}
+div.map_title.bottom div.r{
+    background: url("../../images/locale/map_title_bottom.png") no-repeat 100% 50%;
+}
+div.map_title div.r{
+    float:left;
+    padding-right:10px;
+    height:43px;
+    min-width:80px;
+}
+
+div.map_title div.r span{
+    display:block;
+    height:43px;
+    text-align:center;
+    color:#FFF;
+    font-weight:bold;
+}
+div.map_title.top div.r span{
+    background: url("../../images/locale/fleche_top.png") no-repeat 50% 100%;
+    line-height:34px;
+}
+div.map_title.bottom div.r span{
+    background: url("../../images/locale/fleche_bottom.png") no-repeat 50% 0;
+    line-height:52px;
+}
+/*END MAP TITLE*/
+.blog,#page{
+    padding-left:20px;
+    padding-right: 20px;
+}
+#comp {
+    padding-top:4px;
+    margin-left:31px;
+}
+#page ol li{
+    color: #3A7485;
+    line-height: 1em;
+    font-size: 1.1em;
+    letter-spacing: 0;
+    margin: 5px 0 8px 22px;
+    word-spacing: 0px;
+    text-align: left;
+}
+table.contenttoc {display:none; }
+div.pagenavcounter {display:none;}
+
+
+
+#ourProducts{
+	text-align: center !important;
+    margin-bottom: 5% !important;
+}
+
+#imgOurProducts{
+	height: 175px;
+}
+
+
+.logoTelefonica{
+	width: 25%;
+}

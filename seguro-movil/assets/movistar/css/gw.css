@@ -1,0 +1,1000 @@
+@font-face {
+	font-family: "ApercuMovistarBlack";
+	font-style: normal;
+	font-weight: normal;
+	src:url("../m/css/font/apercu_movistar_black-web.eot?#iefix");/*to IE*/
+
+	/*	format("embedded-opentype"), */
+	src: local("ApercuMovistarBlack"),	url("../m/css/font/apercu_movistar_black-web.woff")
+		format("woff"),
+		url("../m/css/font/apercu_movistar_black-web.ttf")
+		format("truetype"),
+		url("../m/css/font/apercu_movistar_black-web.svg#ApercuMovistarBlack")
+		format("svg");
+}
+
+@font-face {
+	font-family: "ApercuMovistarBlackItalic";
+	font-style: normal;
+	font-weight: normal;
+	src:url("../m/css/font/apercu_movistar_black_italic-web.eot?#iefix");/*to IE*/
+
+	/*	format("embedded-opentype"), */
+	src: local("ApercuMovistarBlack"),	url("../m/css/font/apercu_movistar_black_italic-web.woff")
+		format("woff"),
+		url("../m/css/font/apercu_movistar_black_italic-web.ttf")
+		format("truetype"),
+		url("../m/css/font/apercu_movistar_black_italic-web.svg#ApercuMovistarBlackItalic")
+		format("svg");
+}
+
+@font-face {
+	font-family: "ApercuMovistarBold";
+	font-style: normal;
+	font-weight: normal;
+	src:url("../m/css/font/apercu_movistar_bold-web.eot?#iefix");/*to IE*/
+
+	/*	format("embedded-opentype"), */
+	src: local("ApercuMovistarBold"),	url("../m/css/font/apercu_movistar_bold-web.woff")
+		format("woff"),
+		url("../m/css/font/apercu_movistar_bold-web.ttf")
+		format("truetype"),
+		url("../m/css/font/apercu_movistar_bold-web.svg#ApercuMovistarBold")
+		format("svg");
+}
+
+@font-face {
+	font-family: "ApercuMovistarBoldItalic";
+	font-style: normal;
+	font-weight: normal;
+	src:url("../m/css/font/apercu_movistar_bold_italic-web.eot?#iefix");/*to IE*/
+
+	/*	format("embedded-opentype"), */
+	src: local("ApercuMovistarBoldItalic"),	url("../m/css/font/apercu_movistar_bold_italic-web.woff")
+		format("woff"),
+		url("../m/css/font/apercu_movistar_bold_italic-web.ttf")
+		format("truetype"),
+		url("../m/css/font/apercu_movistar_bold_italic-web.svg#ApercuMovistarBoldItalic")
+		format("svg");
+}
+
+@font-face {
+	font-family: "ApercuMovistarLightItalic";
+	font-style: normal;
+	font-weight: normal;
+	src:url("../m/css/font/apercu_movistar_light_italic-web.eot?#iefix");/*to IE*/
+
+	/*	format("embedded-opentype"), */
+	src: local("ApercuMovistarLightItalic"),	url("../m/css/font/apercu_movistar_light_italic-web.woff")
+		format("woff"),
+		url("../m/css/font/apercu_movistar_light_italic-web.ttf")
+		format("truetype"),
+		url("../m/css/font/apercu_movistar_bold_italic-web.svg#ApercuMovistarLightItalic")
+		format("svg");
+}
+
+@font-face {
+	font-family: "ApercuMovistarLight";
+	font-style: normal;
+	font-weight: normal;
+	src:url("../m/css/font/apercu_movistar_light-web.eot?#iefix");/*to IE*/
+
+	/*	format("embedded-opentype"), */
+	src: local("ApercuMovistarLight"),	url("../m/css/font/apercu_movistar_light-web.woff")
+		format("woff"),
+		url("../m/css/font/apercu_movistar_light-web.ttf")
+		format("truetype"),
+		url("../m/css/font/apercu_movistar_light-web.svg#ApercuMovistarLight")
+		format("svg");
+}
+
+@font-face {
+	font-family: "ApercuMovistarRegularItalic";
+	font-style: normal;
+	font-weight: normal;
+	src:url("../m/css/font/apercu_movistar_regular_italic-web.eot?#iefix");/*to IE*/
+
+	/*	format("embedded-opentype"), */
+	src: local("ApercuMovistarRegularItalic"),	url("../m/css/font/apercu_movistar_regular_italic-web.woff")
+		format("woff"),
+		url("../m/css/font/apercu_movistar_regular_italic-web.ttf")
+		format("truetype"),
+		url("../m/css/font/apercu_movistar_light-web.svg#ApercuMovistarRegularItalic")
+		format("svg");
+}
+
+@font-face {
+	font-family: "ApercuMovistarRegular";
+	font-style: normal;
+	font-weight: normal;
+	src:url("../m/css/font/apercu_movistar_regular-web.eot?#iefix");/*to IE*/
+
+	/*	format("embedded-opentype"), */
+	src: local("ApercuMovistarRegular"),	url("../m/css/font/apercu_movistar_regular-web.woff")
+		format("woff"),
+		url("../m/css/font/apercu_movistar_regular-web.ttf")
+		format("truetype"),
+		url("../m/css/font/apercu_movistar_regular-web.svg#ApercuMovistarRegular")
+		format("svg");
+}
+
+
+@font-face {
+	font-family: "MovistarHeadlineBold";
+	font-style: normal;
+	font-weight: normal;
+	src:url("../m/css/font/movistarheadline-bold-webfont.eot?#iefix");/*to IE*/
+
+	/*	format("embedded-opentype"), */
+	src: local("MovistarHeadlineBold"),	url("../m/css/font/movistarheadline-bold-webfont.woff")
+		format("woff"),
+		url("../m/css/font/movistarheadline-bold-webfont.ttf")
+		format("truetype"),
+		url("../m/css/font/movistarheadline-bold-webfont.svg#MovistarHeadlineBold")
+		format("svg");
+}
+
+@font-face {
+	font-family: "MovistarHeadlineRegular";
+	font-style: normal;
+	font-weight: normal;
+	src:
+		url("../m/css/font/movistarheadline-regular-webfont.eot?#iefix");/*to IE*/
+	src: local("MovistarHeadlineRegular"),	
+		url("../m/css/font/movistarheadline-regular-webfont.woff")
+		format("woff"),
+		url("../m/css/font/movistarheadline-regular-webfont.ttf")
+		format("truetype"),
+		url("../m/css/font/movistarheadline-regular-webfont.svg#MovistarHeadlineRegular")
+		format("svg");
+}
+
+@font-face {
+	font-family: "MovistarTextBold";
+	font-style: normal;
+	font-weight: normal;
+	src:
+		url("../m/css/font/movistartext-bold-webfont.eot?#iefix");/*to IE*/
+	src: local("MovistarTextBold"),
+		url("../m/css/font/movistartext-bold-webfont.woff")
+		format("woff"),
+		url("../m/css/font/movistartext-bold-webfont.ttf")
+		format("truetype"),
+		url("../m/css/font/movistartext-bold-webfont.svg#MovistarTextBold")
+		format("svg");
+}
+
+@font-face {
+	font-family: "MovistarTextRegular";
+	font-style: normal;
+	font-weight: normal;
+	src:
+		url("../m/css/font/movistartext-regular-webfont.eot?#iefix"); /*to IE*/
+	src: local("MovistarTextRegular"), 
+		url("../m/css/font/movistartext-regular-webfont.woff")
+		format("woff"),
+		url("../m/css/font/movistartext-regular-webfont.ttf")
+		format("truetype"),
+		url("../m/css/font/movistartext-regular-webfont.svg#MovistarTextRegular")
+		format("svg");
+}
+
+@font-face {
+	font-family: "MovistarMarket";
+	font-style: normal;
+	font-weight: normal;
+	src:
+		url("../m/css/font/MovistarMarket.eot?#iefix");/*to IE*/
+	src: local("MovistarHeadlineRegular"),	
+		url("../m/css/font/MovistarMarket.woff")
+		format("woff"),
+		url("../m/css/font/MovistarMarket.ttf")
+		format("truetype"),
+		url("../m/css/font/MovistarMarket.svg#MovistarMarket")
+		format("svg");
+}
+
+@font-face {
+	font-family: "TelefonicaHand";
+	font-style: normal;
+	font-weight: normal;
+	src:
+		url("../m/css/font/TelefonicaWeb-Hand.eot?#iefix");/*to IE*/
+	src: local("MovistarHeadlineRegular"),	
+		url("../m/css/font/TelefonicaWeb-Hand.woff")
+		format("woff"),
+		url("../m/css/font/TelefonicaWeb-Hand.ttf")
+		format("truetype"),
+		url("../m/css/font/TelefonicaWeb-Hand.svg#TelefonicaHand")
+		format("svg");
+}
+
+@font-face {
+	font-family: "TelefonicaBold";
+	font-style: normal;
+	font-weight: normal;
+	src:
+		url("../m/css/font/TelefonicaWeb-Bold.eot?#iefix");/*to IE*/
+	src: local("MovistarHeadlineRegular"),	
+		url("../m/css/font/TelefonicaWeb-Bold.woff")
+		format("woff"),
+		url("../m/css/font/TelefonicaWeb-Bold.ttf")
+		format("truetype"),
+		url("../m/css/font/TelefonicaWeb-Bold.svg#TelefonicaBold")
+		format("svg");
+}
+
+@font-face {
+	font-family: "TelefonicaLight";
+	font-style: normal;
+	font-weight: normal;
+	src:
+		url("../m/css/font/TelefonicaWeb-Light.eot?#iefix");/*to IE*/
+	src: local("MovistarHeadlineRegular"),	
+		url("../m/css/font/TelefonicaWeb-Light.woff")
+		format("woff"),
+		url("../m/css/font/TelefonicaWeb-Light.ttf")
+		format("truetype"),
+		url("../m/css/font/TelefonicaWeb-Light.svg#TelefonicaLight")
+		format("svg");
+}
+
+@font-face {
+	font-family: "TelefonicaRegular";
+	font-style: normal;
+	font-weight: normal;
+	src:
+		url("../m/css/font/TelefonicaWeb-Regular.eot?#iefix");/*to IE*/
+	src: local("MovistarHeadlineRegular"),	
+		url("../m/css/font/TelefonicaWeb-Regular.woff")
+		format("woff"),
+		url("../m/css/font/TelefonicaWeb-Regular.ttf")
+		format("truetype"),
+		url("../m/css/font/TelefonicaWeb-Regular.svg#TelefonicaRegular")
+		format("svg");
+}
+
+@font-face {
+	font-family: "TelefonicaRegularItalic";
+	font-style: normal;
+	font-weight: normal;
+	src:
+		url("../m/css/font/TelefonicaWeb-RegularItalic.eot?#iefix");/*to IE*/
+	src: local("MovistarHeadlineRegular"),	
+		url("../m/css/font/TelefonicaWeb-RegularItalic.woff")
+		format("woff"),
+		url("../m/css/font/TelefonicaWeb-RegularItalic.ttf")
+		format("truetype"),
+		url("../m/css/font/TelefonicaWeb-RegularItalic.svg#TelefonicaRegularItalic")
+		format("svg");
+}
+
+@font-face {
+	font-family: "TelefonicaThin";
+	font-style: normal;
+	font-weight: normal;
+	src:
+		url("../m/css/font/TelefonicaWeb-Thin.eot?#iefix");/*to IE*/
+	src: local("MovistarHeadlineRegular"),	
+		url("../m/css/font/TelefonicaWeb-Thin.woff")
+		format("woff"),
+		url("../m/css/font/TelefonicaWeb-Thin.ttf")
+		format("truetype"),
+		url("../m/css/font/TelefonicaWeb-Thin.svg#TelefonicaThin")
+		format("svg");
+}
+
+@font-face {
+
+	font-family: "TelefonicaCap";
+	font-style: normal;
+	font-weight: normal;
+	src:
+		url("../m/css/font/TelefonicaCapWeb-Regular.eot?#iefix"); /* IE9 */
+	src: local("MovistarHeadlineRegular"), 
+		url("../m/css/font/TelefonicaCapWeb-Regular.woff")
+		format("woff"),
+		url("../m/css/font/TelefonicaCapWeb-Regular.ttf")
+		format("truetype"),
+		url("../m/css/font/TelefonicaCapWeb-Regular.svg#TelefonicaCap")
+		format("svg");
+	}
+
+
+@font-face {
+	font-family: "GothamBook";
+	font-style: normal;
+	font-weight: normal;
+	src:url("../m/css/font/Gotham-Book.eot?#iefix");/*to IE*/
+
+	/*	format("embedded-opentype"), */
+	src: local("MovistarHeadlineBold"),	
+		url("../m/css/font/Gotham-Book.woff")
+		format("woff"),
+		url("../m/css/font/Gotham-Book.ttf")
+		format("truetype"),
+		url("../m/css/font/Gotham-Book.svg#Gotham-Book")
+		format("svg");
+}
+
+
+/*20.06.2012 13:43h*/
+/*Pruebas cacheo 21.06.2012 13:06h*/
+/*Pruebas cacheo 26.06.2012 10:48h*/
+
+.COL10_clear {clear:both;}
+.cab_help .help {/*top: 1.6em;*/top:auto !important;margin-top: -3.8em !important;}
+/*.ifr_menu .cab_help .help {top: 3.5em !important;}*/
+.contentnavalt .contentnavalt {margin-bottom:0;}
+.col10_prenavalt {width:96.2em;padding-right:1.8em;clear:both;text-align:right;font-weight:bold;color:#515559;background:url(../img/fnd_acc_ofertas.gif) repeat-x left top;height:3.6em;}
+.col10_recarga, .COL10_cobertura {float:right;min-height: 3em;}
+.COL10_cobertura {background: url("../img/ico-cobertura-home.gif") no-repeat 3px 8px;padding:0 0 0 2.9em;AAwidth:38em;margin-right:2.6em;}
+.col10_recarga {background: url("../img/ico-recarga-home.gif") no-repeat scroll 3px 8px transparent;padding-left:2.6em}
+.col10_recarga a {display:block;color: #515559;font: 1.2em Verdana,Geneva,Arial,Helvetica,sans-serif;background-image:url(../img/icomasinfo.gif);background-repeat:no-repeat;background-position: right .5em;padding-right:2.3em;}
+.col10_recarga a:hover{color:#0086C3;}
+.col10_recarga a strong {display:block;padding-top:.9em;padding-bottom:.5em;}
+.COL10_form_internet {padding-top:0;height: 3.3em;}
+.COL10_cobertura label {float:left;color: #515559;display: block;font-size: 1.2em;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;position: relative;top: 0.7em;}
+.COL10_cobertura input.inpofertas {float:left;position: relative;top: 0.4em;background-color:#F0F0F0;border-color:#5D5D5D #DFDED9 #DFDED9 #5D5D5D; border-style:solid; border-width:1px;color:#515559;padding:0.1em 0; width:8em; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;margin-left:.45em;margin-right:.25em;}
+.COL10_cobertura input.masofertas {float:left;position: relative;top: 0.4em;}
+.COL10_coberturaV2 {}
+.COL10_coberturaV2 label {display:block;font-size:1.2em;margin-bottom: 0.45em;}
+.COL10_coberturaV2 .inpofertas {background-color:#f0f0f0;border:1px solid #5d5d5d;border-bottom-color:#dedfda;border-right-color:#dedfda;width: 11em;}
+.COL10_coberturaV2 .masofertas {margin-left:.45em;position:relative;top:-.2em;}
+.COL10_masinfo {padding-left:1.5em;}
+.content_H2 .COL10_masinfo {clear:both;}
+.COL10_masinfo a.txt_mb {font-size:1.1em;}
+.COL10_coberturaV2 .COL10_form_internet {padding-top:0;}
+.COL10_landing {float:none;background-image:none !important;position:relative;top:-7em;padding-left:2em;margin-right:0;}
+.COL10_landing input.inpofertas {float:left;position:relative;top: 1em;background-color:#F0F0F0;border-color:#004563 #004563 #004563 #004563;border-style:solid;border-width:1px;color:#005c84;padding: 0.25em 0 0.25em 0.5em;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;margin-left:.45em;margin-right:.2em;font-size: 1.1em;background-image:url(../img/fnd_input_sombra.gif);background-position:right top;background-repeat:no-repeat;width: 12.5em;}
+.COL10_masofertas {float:left;position:relative;top:.8em;}
+#contacta h2 {font-size: 1.9em;margin-top:10px;margin-left:10px}
+#contacta .enlaces .enlace_chat {background: url("../img/ico-bocadillo.gif") no-repeat scroll 1em 1em transparent; padding: 10px 0 7px 6em;}
+#contacta .enlaces .enlace_chatB {padding-bottom:1.3em;}
+#contacta .enlace_foros {background: url("../img/ico-foros.jpg") no-repeat scroll 3px 3px transparent; padding: 20px 0 7px 6em;}
+#contacta .enlace_buscadortiendas{background: url("../img/contacto_tienda.gif") no-repeat scroll 3px 3px transparent; padding: 10px 0 7px 6em;}
+#contacta .soluciones_recientes_ant{font-size:1.3em;}
+#contacta .soluciones_recientes_izq{margin-left:10px;}
+#contacta .soluciones_recientes_der{margin-left:10px;}
+#contacta .soluciones_recientes_izq{margin-left:10px;}
+#contacta .sinmargen{margin-bottom:0px;}
+.COL10_contacta_izq {float: left; padding-right: 1em; width: 74%;}
+.COL10_contacta_der {border-left: 1px solid rgb(217, 222, 223); float: left; padding-left: 1em; width: 20%;}
+.COL10_contacta_a {font: 1.3em Verdana,Geneva,Arial,Helvetica,sans-serif;}
+.COL10_mb {margin-bottom:1em;clear:both;}
+.COL10_contacta_h3 {font-size:1.1em;border-bottom: 1px solid #D9DEDF;margin:1em 1em 2em 1em}
+.COL10_contacta_bl {float:left;width:100%;text-align:center;padding:0em 1em 1em 0em;}
+.COL10_contacta_bl a{font-size:1.3em Verdana,Geneva,Arial,Helvetica,sans-serif;}
+#recaptcha_widget_div {padding-left: 6em;padding-top: 1em;}
+.COL10_landing_masinfo {}
+.COL10_landing_masinfo2 {top: 13em;position: relative;}
+.COL10_adsl_cont_imagen {position:relative;padding-bottom:2.5em;}
+.COL10_adsl_imagen {width:98em;height:70em;}
+.COL10_adsl_imagen_v2 {width:98em;height:70em;}
+* html .COL10_adsl_imagen_v2 {width:100%;}
+.COL10_fibra_cont_imagen {position:relative;padding-bottom:2.5em;}
+.COL10_fibra_imagen {width:98em;height:86.4em;}
+#COL10_adsl_cartela {}
+#COL10_adsl_cartela img {margin-top:3em;}
+#caja {position:absolute;width:21.8em;height:21.8em;text-align:center;top:2em;right:2em;display:none;}
+.COL10_campo_configura {position:relative;top:-4em;}
+#COL10_H2_consultadispo {position:relative;top:-1em;}
+#rolovers {width:50em;z-index:9;margin-left:.45em;margin-top:.3em;}
+.inrolovers {cursor: pointer;float: left;margin-right: 6.5em;}
+* html .inrolovers {cursor:hand;}
+.inrolovers2{margin-right: 5.2em;}
+.inrolovers3 {margin-right:0;}
+#roloversovers {position:absolute;z-index:1000;top:26.8em;left:3.9em;width:48em;}
+#yporsolo01over, #yporsolo02over, #yporsolo03over, #yporsolo04over {position:absolute;z-index:1000;top:-5em;display:none;}
+#yporsolo02over {left:10.9em;}
+#yporsolo03over {left:27.9em;}
+#yporsolo04over {left:43.9em;}
+.COL10_hidden {display:none !important;}
+.COL10_enlace_br {clear: both;padding-top: 1em;text-align:right;}
+.COL10_enlace_br a {color:#5cd2ed;font-size:1.1em;text-decoration:none;font-weight:bold;}
+.COL10_enlace_br a:hover {text-decoration:underline;}
+.COL10_enlace_br_adsl {clear: both;padding-top: 1em;text-align:right;}
+.COL10_enlace_br_adsl a {color:#fff;font-size:1.1em;text-decoration:none;font-weight:bold;}
+.COL10_enlace_br_adsl a:hover {text-decoration:underline;}
+
+.COL10_enlace_br_fibra {clear: both;padding-top: 1em;text-align:right;}
+.COL10_enlace_br_fibra a {color:#5cd2ed;font-size:1.2em;text-decoration:none;font-weight:normal;font-family:verdana;}
+.COL10_enlace_br_fibra a:hover {text-decoration:underline;}
+.COL10_enlace_form {color:#0086c3;text-align:right;font-size:1.3em;margin-left:0.5em;margin-top:.3em;letter-spacing: -1px;padding-right:2em;}
+#COL10_texto_landing {left: 3.7em;position: absolute;top: 29.55em;width: 44.1em;}
+.COL10_adsl_cont_imagen #COL10_texto_landing.autonomos{/*top: 28.6em;*/top:10px}
+#COL10_texto_landing_fibra {left: 28em;position: absolute;top: 35em; width: 44.1em;}
+#button_fibra{left:74em;position:absolute;top:31em;}
+.COL10_totalizacion_imagen_v2{position: relative;top: 19em;left: 36.5em;}
+.COL10_totalizacion_cont_imagen{left: -35em;overflow: hidden;top: -16em;width: 166.7em;height: 121em;background:url(../img/landings/totalizacion/Landing_totalizacion.png) no-repeat 0 0;}
+.COL10_dia_internet_cont_imagen{left: -47em;overflow: hidden;top: -16em;width: 178.7em;height: 121em;background:url(../img/landings/dia-internet/Fondo_landing_dia_internet.jpg) no-repeat 0 0;}
+.COL10_mi_movistar_cont_imagen{left: -47em; margin-bottom:-12em; overflow: hidden;top: -16em;width: 178.7em;height: 121em;background:url(../img/landings/mi-movistar/fondo_landing_mi_movistar.png) no-repeat 0 0;}
+.COL10_mi_movistar_cont_imagen_aut{left: -47em; margin-bottom:-12em; overflow: hidden;top: -16em;width: 178.7em;height: 121em;background:url(../img/landings/mi-movistar/fondo_landing_mi_movistar_autonomos.png) no-repeat 0 0;}
+.COL10_dt-este_cont_imagen{left: 0px; overflow: hidden; top: 0; width: 100%; height: 1200px; background:url(../img/landings/dt-este/fondo-landing-dt-este.jpg) no-repeat center 0;}
+
+
+.content_H2 .desproducto {height:auto !important;}
+.COLX_H2_masinfo img {height:20.1em;width:21.6em;}
+
+/*landing norte*/
+.inr_norte1, .inr_norte2, .inr_norte3 {top:23.8em !important;}
+.inr_norte2 {left:23.8em !important;}
+.inr_norte3 {left:37.8em !important;}
+#rolovers-norte .inrolovers1 {margin-right:4.5em;}
+#rolovers-norte .inrolovers2 {margin-right:4.5em;}
+
+* html .tabla_tarifas th.t_titulo, .tabla_tarifas td.t_notas {width:auto !important;}
+#datos_centrales_interior_m4 .formcheckout h3.head {clear:both;}
+
+/*formularios*/
+.intregistro div.COL10_campo_15 select {width: 28.35em;}
+.intregistro div.COL10_campo_2 select {width: 39.4em;}
+
+.formulario textarea{background: none repeat scroll 0 0 #F0F0F0;border-color: #5D5D5D #E0DED8 #E0DED8 #5D5D5D;border-style: solid;border-width: 1px;display: block;margin-top: 0.2em;padding: 0.1em 0.2em;width: 28em;height: 6em;resize: none;}
+
+/**/
+.COL10_btn_whisbi_dis {display:block;padding-bottom:.1em;padding-top:.65em;text-align:center;}
+.COL10_btn_whisbi_compara {display: block;float: right;padding-bottom: 0.1em;padding-top: 0.65em;position: absolute;right: 3em;text-align: center;top: 7em;}
+.LIS_simple_OPi .panel_producto_4 .headerproducto img {display:none;}
+.LIS_simple_OPi ul.list_tarifas2 li {min-height: .1em;}
+ul.list_tarifas2 {margin-top: 1.2em;}
+#cartelBeta, #cartelEmp {display: none !important;}
+body {background-position: 0em 0 !important;}
+
+/*op*/
+.LIS_simple_OPi .intimagenio .panel_filtro {margin-left:0;margin-right:0;display:none;}
+
+.headerHome {position:relative !important;background-color: #ffffff;}
+/*estilos lightbox*/
+
+#col_lightbox-container div.col_lightbox_ventana_comercial {width:76.6em;min-height:59.5em;}
+* html #col_lightbox-container div.col_lightbox_ventana_comercial {height:59.5em;}
+
+.subcategoria_servicio{position:relative;}
+
+/* Pie página */
+.logotipos { background-image: url("../img/fondo_pie.gif");background-position: center bottom;background-repeat: repeat-x;min-height:5.3em !important;padding-top: 0.7em;}
+.logotipos ul {margin-left:0 !important;}
+.logotipos ul li { margin-right: 1em !important;margin-left:-0.2em;
+}
+/* Chapuza por no poder usar nth-child en <=ie8 */
+/* .logotipos ul li:first-child{padding-left: 0.5em;}
+.logotipos ul li:first-child + li + li + li + li + li + li {padding-left: 1em; *padding-left: 3.4em; margin-right: 1.5em !important;}
+.logotipos ul li:first-child + li + li + li + li + li + li + li {margin-right: 1.5em !important;}
+.logotipos ul li:first-child + li + li + li + li + li + li + li + li {margin-right: 1.5em !important;}
+.logotipos ul li:first-child + li + li + li + li + li + li + li + li + li{margin-right: 1.5em !important;}
+.logotipos ul li:first-child + li + li + li + li + li + li + li + li + li + li{margin-right: 0 !important;}
+.logotipos ul li .img-seleccion>img { width: 165px;}
+.logotipos ul li:first-child + li + li + li + li + li + li + li img { width: 22px;}
+.logotipos ul li:first-child + li + li + li + li + li + li + li + li img { width: 22px;}
+.logotipos ul li:first-child + li + li + li + li + li + li + li + li + li img { width: 22px;}
+.logotipos ul li:first-child + li + li + li + li + li + li + li + li + li + li img,
+.logotipos ul li:first-child + li + li + li + li + li + li + li + li + li + li +li img { width: 22px;}
+ */
+
+#enlacecalidad:before {content: url(../img/separador.gif);padding-right: 2em;}
+
+/*para colocar las caracteristicas de los moviles*/
+.caracteristicas{min-height:7em !important;}
+.valignTop{vertical-align:top}
+
+/*para corregir visualizacion del carro de la compra*/
+.conf_precarro .caracteristicas {min-height: 2em !important;}
+
+
+.tabs_producto .info .caracteristicas {height: auto !important;}
+
+/*interstitial*/
+.col_lightbox_interstitial {height:520px;width:800px}
+.col_lightbox_interstitial #col_lightbox-iframe{height:480px;}
+.col_lightbox_interstitial #col_lightbox-cerrar{background:#286082}
+.col_lightbox_interstitial #col_lightbox-cerrar #col_lightbox-acerrar{color:#FFF}
+.col_lightbox_interstitial #col_lightbox-interior{background:#286082; padding:0;}
+div.col_lightbox_vcom #col_lightbox-interior {padding: 0;}
+#col_lightbox-container-inner {border:0px;}
+
+/*Lightbox Fibra*/
+.col_lightbox_fibra {height:561px;width:698px}
+.col_lightbox_fibra #col_lightbox-iframe{height:561px!important; max-height:561px!important; color:#062834;}
+.col_lightbox_fibra #col_lightbox-cerrar{background:#072933}
+.col_lightbox_fibra #col_lightbox-cerrar #col_lightbox-acerrar{color:#FFF; *line-height:8px!important;  /* Sólo IE7 */}
+.col_lightbox_fibra #col_lightbox-interior{background:#062834; padding:0; height:561px;}
+
+.des_acc_mi_movistar.v_acc2 a img{display:none}
+
+/*formulario landing dia internet*/
+#ifr-formulario{top: 59em;position: relative;left: 47em;}
+/*formulario landing mi movistar*/
+#ifr-formulario-mi-movistar{top: 48em;position: relative;left: 47em;}
+/*formulario landing DT Este*/
+#ifr-formulario-dt-este{left: 360px; position: relative; top: 205px;}
+#contentBoton {position: relative; width: 30px; height: 30px; top: 71em; left: 46em; margin: 0 auto;}
+
+
+.detalle_tarifa .list_tarifas2 .tabla_tarifas tr th {font-size:1em;}
+.detalle_tarifa .list_tarifas2 .tabla_tarifas tr td.coste{font-size:1.8em;}
+
+/*landings locales*/
+.COL10_imagen_v2{position:relative; top:19em; left:36.5em}
+.COL10_imagen_v2.asturias{top: 24em;left: 51em;}
+.COL10_imagen_v2.bizcaia{top: 18em;left: 51em;}
+.COL10_imagen_v2.generica-1990{top: 23em;left: 51.5em;}
+.COL10_imagen_v2.generica_2490{top: 23.6em;left: 51em;}
+.COL10_imagen_v2.laRioja{top: 22em;left: 51em;}
+.COL10_imagen_v2.galicia{top: 17em;left: 49em;}
+
+.COL10_cont_imagen{left: -35em;overflow: hidden;top: -11em;width: 166.7em;height: 121em;}
+.COL10_cont_imagen.asturias{background:url(../img/landings/landings-locales/fondo_Landing_Asturias.png) no-repeat 0 0;left: -48em;width: 179.7em; height:77em;overflow:hidden; padding:0em; margin-bottom: -10em;}
+.COL10_cont_imagen.bizcaia{background:url(../img/landings/landings-locales/Fondo_Landing_Bizcaia.png) no-repeat 0 0;left: -48em;width: 179.7em; height:77em;overflow:hidden; padding:0em; margin-bottom: -13em; top:-17em}
+.COL10_cont_imagen.generica_1990{background:url(../img/landings/landings-locales/fondo_landing_adsl_10mb.jpg) no-repeat 0 0;left: -48em;width: 179.7em; height:77em;overflow:hidden; padding:0em; margin-bottom: -10em;}
+.COL10_cont_imagen.generica_2490{background:url(../img/landings/landings-locales/fondo_Landing_Generica_2490.png) no-repeat 0 0;left: -48em;width: 179.7em; height:77em;overflow:hidden; padding:0em; margin-bottom: -10em;}
+.COL10_cont_imagen.laRioja{background:url(../img/landings/landings-locales/fondo_Landing_La_Rioja.png) no-repeat 0 0;left: -48em;width: 179.7em; height:77em;overflow:hidden; padding:0em; margin-bottom: -10em;}
+.COL10_cont_imagen.galicia{background:url(../img/landings/landings-locales/fondo_Landing_Galicia.png) no-repeat 0 0;left: -48em;width: 179.7em; height:77em;overflow:hidden; padding:0em; margin-bottom: -10em;}
+
+
+/*MICROSITE ADSL IMAGENIO*/
+
+
+/*estilos para las pestañas de adsl e imagenio*/
+
+.pestMicrosite {width: 100%;float: left;margin-right: 2em;clear: left;overflow: hidden;}
+.pestMicrosite .tabs_producto .tabs_nav {background: none repeat scroll 0 0 #EEE;height: 4.2em;margin-bottom:0;display:none}
+.pestMicrosite .tabs_producto .tabs_nav li {float: left;list-style: none outside none;margin-left: 0.1em;margin-right: 0.1em;margin-top: 0.1em;font-family: Verdana;font-weight: normal;margin-bottom:0.1em;}
+.pestMicrosite#pest1 .tabs_producto .tabs_nav li.selected a {background: url("../img/bg_pest_on.png") no-repeat left top transparent;text-decoration: none;color: white !important;padding-bottom: 2em;width: 3.2em;font-weight: normal;font-size:1.6em}
+.pestMicrosite#pest2 .tabs_producto .tabs_nav li.selected a {background: url("../img/btn_habla-navega.png") no-repeat -2.2em top transparent;text-decoration: none;color: white !important;padding-bottom: 2em;width: 5.2em;font-weight: normal;font-size:1.6em}
+.pestMicrosite .tabs_producto .tabs_nav a:link, .pestMicrosite .tabs_producto .tabs_nav a:visited {color: #0086C3;}
+.pestMicrosite .tabs_producto .tabs_nav a{text-transform: none;color:#0086C3;  padding: 9px 20px 13px;  *padding: 9px 20px 14px; font-family: Verdana; font-weight: normal; font-size:1.6em;} /*azul*/
+.pestMicrosite .tabs_producto .tabs_nav a{  background: none no-repeat scroll right center white;}
+
+/*estilos para los comparadores de adsl e imagenio nuevos*/
+.pestMicrosite .tabs_producto .tabs_content{padding-left:0;}
+.pestMicrosite .tabs_producto .tabs_content .item {font-size: 1em;}
+.comparador-adsl{background:#FFF;}
+
+.comparaImagenio.pasos {background: #fff url('../img/fnd_pasos_checkout_gradient.gif') 0 0 repeat-x;padding-bottom: 1em;}
+.comparaImagenio.pasos.paso1 .step {background-position: left bottom;}
+.comparaImagenio.pasos.paso2 .step{background-position:-82.3em bottom}
+.comparaImagenio.pasos .step {width: 34em;height: 3.1em;padding: 2.5em 0 0 2em;background: url('../img/fnd_pasos_checkout.gif') left bottom no-repeat;margin-bottom: 0;}
+.comparaImagenio.pasos .step div {display: inline;margin-right: 2.3em;color: #999;font: 1.2em Verdana,Tahoma,Arial,sans-serif;list-style: decimal;}
+.comparaImagenio.pasos .step div span {font-weight: bold;}
+.comparaImagenio.pasos div.active {color: #0086C3;}
+
+.filtroADSL{margin-left: 2em;line-height: 1.7em;}
+.filtroADSL span{float:left;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-size: 1.4em;color: black;}
+.filtroADSL .intfiltro{clear:both}
+.filtroADSL .intfiltro form fieldset .header_fieldset {background: none;padding-left: 0;border-bottom: solid 0.2em #EDEDED;margin-bottom: 1em;}
+.filtroADSL .intfiltro form fieldset .header_fieldset .minus {background-image: url(../img/btn_minus_gray.gif);}
+.filtroADSL .intfiltro form fieldset .header_fieldset .botonimagen.plus{background: url(../img/btn_plus_gray.gif) no-repeat right top;}
+
+.filtroADSL .recarga{float:right;position: relative;top: -1em;}
+.filtroADSL .contrato_movil, .filtroADSL .linea_fija, .filtroADSL .no_linea_fija, .filtroADSL .no_contrato_movil{float:left;color:#0186c1;font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;font-weight:bold;position:relative;left: 0em;}
+.filtroADSL .contrato_movil, .filtroADSL .no_contrato_movil{display:none}
+.filtroADSL .linea_fija{display:none;}
+.filtroADSL .no_linea_fija{display:none;}
+.filtroADSL .contrato_movil{width: 19em;text-align: left;}
+.filtroADSL .no_contrato_movil{width: 19em;text-align: left;}
+.filtroADSL .filtro1{clear:both;float:left; font-family:Arial,Verdana,Geneva,Helvetica,sans-serif;font-size: 1.3em;width:20em;text-align: left;}
+.filtroADSL .filtro2{float:left;font-family:Arial,Verdana,Geneva,Helvetica,sans-serif;font-size: 1.3em;width:20em;display:none;text-align: left;}
+.filtroADSL .telef{float:left;width:40em; display:none;}
+	.filtroADSL .telef input{background:#f0f0f0;float: left;}
+.filtroADSL .consulta_direccion{float:left;width:30em;display:none;text-align:left;}
+	.filtroADSL .consulta_direccion a{font-weight:bold;font-size:1.2em;}
+.filtroADSL .filtro1 label, .filtroADSL .filtro2 form{color:#0084c2; margin-top:0.3em;font-family:arial;}
+.filtroADSL .filtro1 input[type="radio"], .filtroADSL .filtro2 input[type="radio"]{margin-left:1em;margin-right:0.7em}
+.filtroADSL .filtro1 input[type="radio"].first, .filtroADSL .filtro2 input[type="radio"].first{margin-left:0}
+.filtroADSL .telef form input[type="text"]{width: 9em;margin-bottom: 0.5em;color: #52555A;background:#f0f0f0;}
+.img_captcha{margin-bottom: 1em;}
+
+.panel_table_comparadores{/*background: url(../img/linea_comparadores.png) no-repeat 21em 0em;*/padding-top: 4em;width: 98.5%}
+.table_comparadores.comp_adsl.microsite thead .desproducto, .table_comparadores.comp_adsl.microsite tfoot td {padding: 1.5em 0em .5em 0em !important}
+.table_comparadores.comp_adsl.microsite thead td.fisrtImg{text-align:center; background:url(../img/sombraRight_comparador.png) no-repeat right top}
+.table_comparadores.comp_adsl.microsite  tfoot .intproducto {padding-left:0em !important;}
+.table_comparadores.comp_adsl.microsite  .intproducto .titproducto{font-family: MovistarHeadlineRegular, verdana;font-size: 2.4em;color: #005C84;}
+.table_comparadores.comp_adsl.microsite thead th.fibra{background: #D7EAB2 url(../img/fnd_fibra.png) no-repeat bottom left;}
+.table_comparadores.comp_adsl.microsite tbody th {border-top:solid 0.1em #e5e5e5;border-bottom:none;/*background-image:none;*/}
+/*.table_comparadores.comp_adsl.microsite tbody th.bloque_producto {background-image: url(../img/fndbloque_producto.gif);background-position: .9em center;background-repeat: no-repeat;}*/
+.table_comparadores.comp_adsl.microsite tbody td,.table_comparadores.comp_adsl.microsite tfoot td {background-image:none; border-top:solid 0.1em #e5e5e5}
+.table_comparadores.comp_adsl.microsite .intdesproducto {padding-left: 1.5em;}
+.table_comparadores.comp_adsl.microsite .intdesproducto span{font-size: 1.2em;}
+.table_comparadores.comp_adsl.microsite .desproducto a.button{margin-left: 0.5em;}
+.table_comparadores.comp_adsl.microsite .precio {padding-left: 1.5em; border-bottom:none;}
+.table_comparadores.comp_adsl.microsite .desproducto a.info {padding-left: 1em;}
+.table_comparadores.comp_adsl.microsite .fibra{background:#D7EAB2;border-top:solid 0.1em #fff;}
+.pestMicrosite .tabs_producto .table_comparadores.comp_adsl.microsite th, .pestMicrosite .tabs_producto .table_comparadores.comp_adsl.microsite td {font-size:1.3em}
+
+#fisrtImagenio {background: url("../img/fnd_prod_imagenio.png") no-repeat scroll 0 0 transparent; height: 16em;padding-left: 0.5em;width: 16em;}
+#fisrtImagenio #nImagenio{color: #005C84;display: block;font-family: MovistarHeadlineRegular,verdana;font-size: 2.4em;font-weight: bold;}
+#fisrtImagenio .sprecio{color: #005C84;display: block;font-family: verdana;font-size: 2.4em;font-weight: normal !important;}
+#fisrtImagenio .sprecio .euro{color: #00517A;font-size: 0.6em;font-weight: bold;left: 0em;letter-spacing: -1px;position: relative;top: -0.7em;}
+#fisrtImagenio #verCaract{float: right; margin-right: 3em;position: relative;top: 2em;}
+
+.table_comparadores.comp_adsl.microsite #recomendado0{visibility:hidden;}
+.table_comparadores.comp_adsl.microsite #recomendado1{visibility:hidden;}
+.table_comparadores.comp_adsl.microsite #recomendado2{visibility:hidden;}
+.table_comparadores.comp_adsl.microsite #recomendado3{visibility:hidden;}
+
+/*para mostrar u ocultar celdas*/
+.table_comparadores.comp_adsl.microsite colgroup#primera{display:table-column-group}
+.table_comparadores.comp_adsl.microsite colgroup#oferta0{display:table-column-group}
+.table_comparadores.comp_adsl.microsite colgroup#oferta1{display:table-column-group}
+.table_comparadores.comp_adsl.microsite colgroup#oferta2{display:table-column-group}
+.table_comparadores.comp_adsl.microsite colgroup#oferta3{display:table-column-group}
+
+.table_comparadores.comp_adsl.microsite th#thead_0 .intproducto{display:block;}
+.table_comparadores.comp_adsl.microsite th#thead_1 .intproducto{display:block;}
+.table_comparadores.comp_adsl.microsite th#thead_2 .intproducto{display:block;}
+.table_comparadores.comp_adsl.microsite th#thead_3 .intproducto{display:block;}
+
+.width30{width:30%;}
+.width40{width:40%;}
+.width50{width:50%;}
+
+/*caracteristicas*/
+
+.cab_caracteristicas{margin: 2em;border-bottom: solid 0.1em #E3E3E3;background:url(../img/fnd_caracteristicas.png) no-repeat right;}
+.cab_caracteristicas div{width: 43em;padding-bottom: 1.5em;}
+.cab_caracteristicas h2{color:#7ab800;  font-size:3.2em; font-family:MovistarHeadlineBold,Verdana}
+.cab_caracteristicas p{font-size:1.7em; font-family:MovistarTextRegular,Verdana;margin-bottom: 1em;}
+.cab_caracteristicas a{font-size: 0.7em;font-family: verdana;}
+
+.cab_caracteristicas .texto_resaltado{color: #00517A;font-size: 1.4em;letter-spacing: -0.1em;margin-right: 0.1em;font-weight:bold;}
+.cab_caracteristicas  .texto_resaltado .precio_actual{font: 4.5em Verdana,Tahoma,Arial,sans-serif;display:block;line-height: 0.8em;}
+.cab_caracteristicas  .texto_resaltado .precio_actual sup{font-size: 0.3em;line-height: 0em;}
+.cab_caracteristicas  .texto_resaltado .precio_actual sup span.smaller{}
+.cab_caracteristicas  .texto_resaltado .superindice{font-size:0.5em;}
+.cab_caracteristicas  .texto_resaltado .button img{vertical-align: top;margin-top: 5em;margin-left: 1em;}
+
+.ventajas_caracteristicas{margin:2em;min-height: 31em;}
+.ventajas_caracteristicas h3 {color:#00517A;font-weight: bold;font-size: 2.3em;font-family: MovistarHeadlineRegular,Verdana;padding-bottom: 0.7em;}
+.ventajas_caracteristicas .video{width: 460px;height: 209px;z-index: 9;position: relative;float:left;}
+.ventajas_caracteristicas .video embed{width: 460px;height: 209px;background:#333333}
+.ventajas_caracteristicas .video .descripcion_video{background: #00476d;height: 3em;top: 0em;position: relative;color: #5cd2ed;font-size: 1.4em;padding-left: 1em;padding-right: 3em;padding-top: 1em;}
+.ventajas_caracteristicas .texto{float:left; padding-left:2em;padding-right:2em;width:45%;}
+.ventajas_caracteristicas .texto p{font-size: 1.2em;line-height: 1.4em;}
+.ventajas_caracteristicas h4{font-weight:bold;font-size: 1.4em; ;padding-bottom:0.5em;}
+.ventajas_caracteristicas .video .play_button{right:230px !important;bottom: 70px !important;}
+.ahorro_caracteristicas{padding-left: 2em;border-bottom: solid 0.1em #E3E3E3;}
+.ahorro_caracteristicas h3{color: #005C84;font-size: 2.6em;font-family: Verdana, arial;font-weight: normal;}
+.ahorro_caracteristicas p{padding-top: 1.5em;font-size: 1.4em;line-height: 1.3em;float:left;	}
+.ahorro_caracteristicas .precio{float:left;margin-left: 3em;}
+.ahorro_caracteristicas .precio .pvp{font-size: 5em;border-bottom: none;margin-left: 1em;margin-top: 0.3em;}	
+.bloque_mas{background:#f2f2f2; border-top:solid #d9d9d9 0.1em;border-bottom:solid #d9d9d9 0.1em;margin:2em;padding-bottom: 1em;}
+.bloque_mas h3{color: #005C84;font-size: 2.6em;font-family: Verdana, arial;font-weight: normal;}
+.bloque_mas .oferta{padding:2em}
+.bloque_mas div.oferta img{margin-left: 5em;margin-top: 2em;padding-bottom: 2em;}
+.bloq_serv{border-top:solid #d9d9d9 0.1em;padding:2em}
+.bloq_serv h4{color: #005C84;font-family: MovistarTextRegular, Verdana;font-size: 2em;font-weight: normal;margin-bottom: 0.5em;}
+.bloq_serv div{float:left;width: 29em;margin-right: 1em;}
+.bloq_serv div h5{font-size: 1.6em;}
+.bloq_serv div p{font-size: 1.2em;margin-bottom:0.5em}
+.bloq_serv div a{font-size:1.4em}
+.ahorro_caracteristicas{margin:2em;}
+.panel_ventacruzada_2.caract{margin:2em;}
+.panel_ventacruzada_2.caract h5{font-size: 1.6em;margin-bottom: .5em;}
+.distselling .pvpselling a.info2 {background: url(../img/btn_enviar-small.png) no-repeat right .2em;}	
+
+/*estilos pagina totalizacion*/
+
+.tot_info{background:url(../imagenes/fnd_ventajas.png) no-repeat right; margin: 2em;border-bottom: solid 0.1em #E3E3E3;}
+.tot_info div{width: 43em;padding-top: 3em;}
+.tot_info h2{color:#7ab800; font-weight:bold; font-size:2.4em; font-family:Verdana}
+.tot_info p{font-size:1.5em; font-family:Verdana;margin-bottom:2.5em;}
+.tot_info a{font-size: 0.7em;font-family: verdana;}
+.tot_info .flash{background: url(../img/ico_flash.png) no-repeat 0 0;padding: 1em 0 1em 3em;font-weight: bold;color: #0086C3;font-family: verdana;font-size: 0.8em;}
+.tot_desc{margin:2em 2em 0 2em;}
+.tot_desc .ventajas{}
+.tot_desc .ventajas h3{font-size: 2.4em;color: #005C84;font-family: MovistarHeadlineRegular;}
+.tot_desc .ventajas div.bloque{clear:both; margin-top:1em;}
+.tot_desc .ventajas .ahorro{float: left;margin-top: 3em;}
+.tot_desc .ventajas .ventajas_adsl{float:left;}
+.tot_desc .ventajas .ventajas_movil{float:left;}
+.tot_desc .ventajas .ahorro div p{margin: 1em 0 0 3em;text-align:right;}
+.tot_desc .ventajas .ahorro div p a{font-size: 1.2em;font-weight: bold;font-family: verdana;}
+.tot_desc .listado_ventajas{float: left;width: 39em;background: #fff;margin-left: 2em;padding: 2em;}
+.tot_desc .listado_ventajas h4{font-size: 1.6em;font-family: verdana;}
+.tot_desc .listado_ventajas ul{margin: 1em 0;}
+.tot_desc .listado_ventajas ul li{margin-bottom: 1em;font-family: verdana;font-size: 1.2em;background: url(../img/fndlstfooterinteriores.gif) no-repeat 0 0.5em;padding-left: .5em;}
+.tot_desc .ventajas_info{clear:both;padding: 2em;background: url(../img/bg_mano.png) no-repeat right 23em}
+.renueva{float: left;width: 48%;padding-right: 3em;}
+.renueva h4{font-size: 2.5em;font-weight: normal;font-family: verdana;border-bottom: solid 0.04em #DCDEE0;padding-bottom: 0.3em;margin-bottom:0.5em;}
+.renueva h5{font-size: 1.6em;font-family: verdana;color: black;}
+.renueva ul{margin: 1em 0 1em 0.5em;}
+.renueva ul li{font-family: verdana;font-size: 1.2em;margin: 1em 0 1em 2em;clear:both;}
+.renueva ul li a{float:right;margin-top: 1em;margin-bottom: 1em;font-weight: bold;}
+.renueva ul li span{background: url(../img/fndlstfooterinteriores.gif) no-repeat 0 0.5em;padding-left: .5em;}
+.renueva ul li.noMargin{margin-left:0em;}
+.banners_inf{clear: both;float: left;margin: 2em;width: 96%;}
+.banners_inf .contrata_ADSL{float:left;margin-right: 2em;}
+.banners_inf .contrata_ADSL h3{font-size: 1.9em;color: #005C84;font-family: Verdana;}
+.banners_inf .int_contrata_ADSL{padding:1.4em;width: 43em;}
+.banners_inf .contrata_movil{margin-right: 0em;float: right;}
+.banners_inf .contrata_movil h3{font-size: 1.9em;color: #005C84;font-family: Verdana;}
+.banners_inf .int_contrata_movil{padding:1.4em;width: 43em;}
+.col_lightbox_general {height:200px;width:700px}
+.col_lightbox_general #col_lightbox-iframe{height:200px;}
+.col_lightbox_general #col_lightbox-cerrar{background:#FFF}
+.col_lightbox_general #col_lightbox-cerrar #col_lightbox-acerrar{color:#FFF}
+.col_lightbox_general #col_lightbox-interior{background:#FFF; padding:0;}
+
+.tot_info_aut {	background: url("../imagenes/fnd_ventajas_aut.png") no-repeat scroll right center transparent;border-bottom: 0.1em solid #E3E3E3;margin: 2em;}
+.tot_info_aut p {padding-top: 2em;font-size: 1.4em;font-weight: bold;font-family: Verdana;font-size: 1.4em;}
+.tot_info_aut div {width: 43em;height: 18em;}
+.tot_info_aut .flash {background: url(../img/ico_flash.png) no-repeat 0 0;padding: 1em 0 1em 3em;font-weight: bold;color: #0086C3;font-family: verdana;font-size: 0.9em;}
+.banners_inf .banner_tipo_negocio {padding: 0.8em 2em 2em;}
+.banners_inf .banner_tipo_negocio h5 {font-size: 1.4em;font-family: Verdana;padding-bottom: 0.8em;color: black;}
+.tot_desc .ventajas_info_aut {clear: both;padding: 2em;}
+
+
+/****************************************/
+.clearBoth{clear:both}
+.pRight0{padding-right:0em;}
+
+/*estilos carruseles flash-html*/
+
+#idFlashSmall{visibility:hidden;}
+#slideshow {margin:0 auto;width:700px;position:relative;}
+#slideshow #slidesContainer {width:700px;overflow:auto; position:relative;}	
+#slideshow #slidesContainer .slide {margin:0 auto;width:700px;}
+.control {display:block;width:29px;height:26px;text-indent:-10000px;position:absolute;cursor: pointer;}
+#izqControl {top:170px;left:603px;background:transparent url(../img/izq.jpg) no-repeat 0 0;z-index:50;}
+#pausaControl {top:170px;right:39px;background:transparent url(../img/pausa.jpg) no-repeat 0 0;z-index:50;}
+#playControl {top:170px;right:39px;background:transparent url(../img/play.jpg) no-repeat 0 0;z-index:50;}
+#derControl {top:170px;right:10px;background:transparent url(../img/der.jpg) no-repeat 0 0;z-index:50;}
+
+.content_superdestacado_ci #izqControl {top:225px;left:603px;background:transparent url(../img/izq.jpg) no-repeat 0 0;z-index:50;}
+.content_superdestacado_ci #pausaControl {top:225px;right:39px;background:transparent url(../img/pausa.jpg) no-repeat 0 0;z-index:50;}
+.content_superdestacado_ci #playControl {top:225px;right:39px;background:transparent url(../img/play.jpg) no-repeat 0 0;z-index:50;}
+.content_superdestacado_ci #derControl {top:225px;right:10px;background:transparent url(../img/der.jpg) no-repeat 0 0;z-index:50;}
+
+
+
+/*estilos cabecera ficha adsl*/
+.contcabecera   .cabecera_ficha_adsl .infoadicionales {font-family: Verdana,Tahoma,Arial,sans-serif;font-size: 1.4em;margin-bottom: 0.4em;padding: 0.3em 0.1em;}
+.contcabecera.span_3  .cabecera_ficha_adsl .desproducto {width: 45em !important;}
+/* .contcabecera .precioproducto {background: none !important;} */
+.contcabecera.span_3   .cabecera_ficha_adsl .precioproducto {*width:26em;}
+.contcabecera.span_3   .cabecera_ficha_adsl .imgproducto .precioproducto {float:right;}
+ .cabecera_ficha_adsl .imgproducto img{float:left;}
+ .cabecera_ficha_adsl .imgproducto{width: 40em;}
+ .cabecera_ficha_adsl .superindice{vertical-align:super;font-size:0.6em;}
+
+.contcabecera  .cabecera_ficha_adsl  .precioproducto .precio_actual .precio {color: #00517A;font: 6em "MovistarHeadlineRegular",Verdana,Tahoma,Arial,sans-serif;letter-spacing: -0.1em;margin-right: 0.1em;}
+.contcabecera   .cabecera_ficha_adsl .precioproducto .inner {padding: 13px 0 5px 35px !important;}
+.contcabecera   .cabecera_ficha_adsl .precioproducto .precio_actual acronym {border-bottom: 1px none #333;cursor: help;}
+
+.cabecera_ficha_adsl .desproducto .texto{color: #00517A;font: 1.1em Verdana,Tahoma,Arial,sans-serif;letter-spacing: -0.1em;margin-right: 0.1em;}
+.contcabecera .cabecera_ficha_adsl .tabla_precios{width: 48em;float:left;}
+.contcabecera.span_3  .cabecera_ficha_adsl .tabla_precios tbody tr{height: 4em;}
+.contcabecera.span_3  .cabecera_ficha_adsl .tabla_precios tbody tr .central, .contcabecera.span_3  .cabecera_ficha_adsl .tabla_precios thead tr{background: #F6F6F6;}
+.contcabecera.span_3  .cabecera_ficha_adsl .tabla_precios tbody tr, .contcabecera.span_3  .cabecera_ficha_adsl .tabla_precios thead tr{border-bottom: 1px solid #E3E3E3;}
+.contcabecera.span_3  .cabecera_ficha_adsl .tabla_precios thead th{height: 2em;padding-top: 1em;font-weight: normal;}
+.contcabecera.span_3  .cabecera_ficha_adsl .tabla_precios th, .contcabecera.span_3  .cabecera_ficha_adsl .tabla_precios td{width:30%;vertical-align: top;padding-top: 0.5em !important;}
+.contcabecera.span_3  .cabecera_ficha_adsl .tabla_precios td .texto_precio{font-size:0.9em}
+.contcabecera.span_3  .cabecera_ficha_adsl .tabla_precios table{margin-left: 1em;width: 95%;}
+.contcabecera.span_3  .cabecera_ficha_adsl .tabla_precios .boton{float:right;}
+.contcabecera .cabecera_ficha_adsl .iconos{float:left;padding-top: 1.5em;}
+.contcabecera .cabecera_ficha_adsl .iconos img{vertical-align: top;}/*margin-right: 1em;*/
+.contcabecera.span_3  .cabecera_ficha_adsl .tabla_precios .pie{margin-left:1em;padding-top: 1em;margin-right: 1em;}
+
+
+.listadoproductos #bannerContainer{background: url('../img/es_ES/btn-tellamamos-gratis.gif') }
+
+
+
+/*estilo para poner todo el texto de las fichas del mismo tamaño. Solicitado por Nacho el 26.06.2012*/
+
+.contcabecera.span_3 .introproducto span.claimsub{font-size:1em}
+
+/*estilos para los precios con letra movistar*/
+.precio_movistar .precio .sprecio{float: left;}
+.precio_movistar .precio div.sprecio {clear: both;font-family: "MovistarHeadlineBold",Verdana,Tahoma,Arial,sans-serif;}
+.precio .precio_actual  {color: #00517A;font-weight: normal;}
+.precio_movistar .precio .precio_actual .precio_num{font-size: 9em;/*font-weight: bold;*/line-height: 0.7em;*line-height: 1em;float:left}
+.precio_movistar .precio  .euro {color: #00517A;font-size: 4em;/*  font-weight: bold;*/vertical-align: top;line-height: 1em;*line-height: 1.5em;}
+.precio_movistar .precio .desde{color: #00517A;font-size:1.3em;/*font-weight: bold;*/margin-top: 0em;}
+.precio_movistar .precio .precio_actual span{letter-spacing: 0em;}
+
+
+/* LIGHTBOX */
+.lightbox_white_content{background-color:#FFF;display:none;height:auto;left:25%;overflow:auto;padding:18px 18px 22px 18px;position:absolute;top:25%;width:600px;z-index:1002}
+.lightbox_black_overlay{-moz-opacity:0.8;background-color:#000;display:none;filter:alpha(opacity=80);height:100%;left:0;opacity:.80;position:absolute;top:0;width:100%;z-index:1001}
+.lightbox_close{background:url(../img/btn_lightbox_close.gif) no-repeat scroll right .6em transparent;float:right;font-size:12px;margin-right:.7em;padding:.7em 2.2em 1.2em 0}
+.lightbox_content_box{font-size:14px;font-weight:400;margin:1em;text-align:justify}
+.lightbox_header{border-bottom-color:#E3E3E3;border-bottom-style:solid;border-bottom-width:1px;color:#005179;font-size:25px;margin-bottom:1em;padding-left:15px;text-align:left;padding-bottom:10px;}
+/****/
+
+/* Estilos de uso común */
+.margen_banner_con_separador{background-clip:border-box;background-origin:padding-box;border-bottom-color:#E3E3E3;border-bottom-style:solid;border-bottom-width:.1em;padding-bottom:3em;margin:2em}
+.margen_banner{margin:2em}
+.gw_required{color:red}
+.gw_texto_legal{text-align:justify;font-size:.8em}
+.destacado_mstore{background-color:#F0F0F0;font-size:.9em;min-height:16em;border-radius:5px;padding:1em}
+
+/*estilos para la imagen de las fichas*/
+/*.imgproducto .img {width:31.7em}
+.desproductos .ftl {margin-left: 33.9em}*/
+
+/* Estilo para mostrar los desplegables por encima del mapa de roaming*/
+.intTpSubMenu{z-index:10000000;position:relative;}
+.RoamingMovistar{z-index:10;position:relative;}
+
+/*CPerez 18.09.2012*/
+.small{ font-size: 1.1em;}
+.italic{font-style: italic;}
+.rounded_off{background:#EFEFEF;}
+.rounded_momentos{margin:1.5em}
+	.rounded_momentos .enlace{margin-bottom:1em;}
+		.rounded_momentos .enlace a{font-size:1.2em}
+	.fleft{float:left;}
+.w100{width:100% !important;margin-bottom:2em;}
+#bloque_tienda{display:none;}
+#bloque_solicitar{display:none}
+.texto_momento1{display:none;}
+.texto_momento2{display:none;}
+
+
+.chat-ayuda{width:484px;height:500px !important;}
+.chat-ayuda #col_lightbox-iframe{height:500px !important;}
+.chat-ayuda #col_lightbox-cerrar{display: none;}
+.chat-ayuda #col_lightbox-interior{background:#fff; padding:0;}
+
+.chat-se{width:700px;height:550px;}
+.chat-se #col_lightbox-iframe{height:550px;}
+.chat-se #col_lightbox-cerrar{display: none;}
+.chat-se #col_lightbox-interior{background:#fff; padding:0;}
+span.new {font: bold 0.9em Verdana,Geneva,Arial,Helvetica,sans-serif;min-height:1.2em;}
+table.conf_precarro {font-size: 0.8em;}
+
+/*ICONO PARA ENLACE JOVENES DE LA CABECERA*/
+.co_jovenes a{background-image:none;padding: 0em;}
+
+/*estilos para landing FSP*/
+/*.fsp_info{background:url(../imagenes/fnd_FSP.png) no-repeat 57em; margin: 2em;border-bottom: solid 0.1em #E3E3E3;}
+.fsp_info div{width: 55em;padding-top: 3em;}
+.fsp_info h2{color:#7ab800; font-weight:bold; font-size:2.4em; font-family:Verdana}
+.fsp_info p{font-size:1.5em; font-family:Verdana;margin-bottom:1.5em;}
+.fsp_info a{font-size: 0.7em;font-family: verdana;}
+.fsp_info .flash{background: url(../img/ico_flash.png) no-repeat 0 0;padding: 1em 0 1em 3em;font-weight: bold;color: #0086C3;font-family: verdana;font-size: 0.8em;}
+.fsp_info {margin:2em 2em 0 2em;}
+
+*/
+/* Sobreescribtura del estilo listRecomendado para modificar los estilos de los enlaces patrocinados del GSA - Cambio Érica*/
+.listRecomendados {background-color: #FFFFFF !important;}
+.listRecomendados li {padding: .5em .4em .4em !important;}
+
+
+
+
+
+/*cobertura desencapsulada, sobreescritura de estilos*/
+#cob-content .modal_window_prod {padding-bottom:0 !important;}
+#cob-content .button_close {display:none !important;}
+#cob-content .headercabecera {background:none !important;padding-top: 0.5em !important;margin-top:-1.8em !important;}
+#cob-content .headercabecera br {display:none !important;}
+#cob-content #mini_form div ul li {/*margin-left: 2.4em;margin-top: 1.7em;*/display:none;}
+#cob-content #mini_form br {display:none;}
+#cob-content h1 {margin-left:0 !important;}
+#cob-content .content_cobertura {padding:2em 2em 0 2em;padding:0;background:none;}
+#cob-content .cabecera_producto {background:none !important;}
+
+#cob-content #loading {background-color:transparent !important;}
+#cob-content #loading h1 {font-size:1.8em;font-weight:normal;}
+#cob-content #loading #procesando {margin-bottom: 0;margin-top: 2em;position: relative;top: 2em;}
+#cob-content #loading #procesando p.titulo {background-image: url("../img/preload-pantalla.gif");background-position: center bottom;background-repeat: no-repeat;color: #000000;font-family: Verdana,Tahoma,Arial,sans-serif;font-size: 2.4em;padding-bottom: 5.2em;text-align: center;}
+
+#cob-content .content_block {margin:0;border:none;padding-bottom:0;}
+#cob-content .cabecera_producto {padding:0;}
+/*se quitan los bordes redondeados solo al div contenedor*/
+#cob-content .cabecera_producto > .b,
+#cob-content .cabecera_producto > .b > .l,
+#cob-content .cabecera_producto > .b > .l > .r,
+#cob-content .cabecera_producto > .b > .l > .r > .t,
+#cob-content .cabecera_producto > .b > .l > .r > .t > .bl,
+#cob-content .cabecera_producto > .b > .l > .r > .t > .bl > .br,
+#cob-content .cabecera_producto > .b > .l > .r > .t > .bl > .br > .tl,
+#cob-content .cabecera_producto > .b > .l > .r > .t > .bl > .br > .tl > .tr {background:none !important;padding:0 !important;}
+
+#cob-content .comprobacion_servicios_content {background:none !important;padding:0 !important;}
+#cob-content .panel_table_comparadores {padding-top:0 !important;}
+/*callejero*/
+#cob-content .direccion, #cob-content .welcome, #cob-content .buscar_domicilio, #cob-content .head_resultados, #cob-content .listado_direcciones {padding:0;}
+#cob-content #resultados_general {padding: 2em 2.8em 1.2em;}
+#cob-content .buscar_domicilio {padding-top:1em;}
+
+#wrapper{overflow:hidden;}
+
+/*quitar el flash en los Titulos de la p?ina  22-8-2013 */
+.cabecera_producto .headercabecera h1 {
+	visibility: visible!important;
+	font-family: MovistarHeadlineBold;
+}
+
+/*ESTILOS AVISOS COOKIES*/
+
+#avisoCookies a {
+    color: #ffffff !Important;
+    text-decoration: underline;
+}
+
+#contenedorCookies {
+	background-color: #00a9e0;
+    color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+    height: 60px;
+    display: none;
+    padding-right: 50px;
+}
+
+#avisoCookies {
+	padding: 10px;
+	font-family: MovistarTextRegular;
+	font-size: 13px;
+	/* width:980px; */
+	margin:auto;
+}
+
+#cierreAviso {
+	background: url(../img/btnCerrarCookies.png) no-repeat scroll right 0em transparent;
+	width: 30px;
+	height: 30px;
+	padding-bottom: 5px;
+	position: absolute;
+	top:20%;
+	left: 90%;
+	background-size: cover;
+}
+
+@media screen and (max-width: 445px) {
+    #contenedorCookies {
+    	height: 100px;
+    }
+    #cierreAviso{
+    	left: 85%;
+		top: 35%;
+    }
+}
+
+/*FIN ESTILOS AVISOS COOKIES*/
+
+/* Estilos para links de Cerrado*/
+div.tl div.tr div.head_prod_cont h3.tit_prod_cont a:link{color:#0086c3;text-decoration: underline}
+div.tl div.tr div.body_serv a:link{color:#0086c3;text-decoration: underline}
+/* Estilos para links de Cerrado*/
+
+.gw-clearfix:before,
+.gw-clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.gw-clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.gw-clearfix {
+    *zoom: 1;
+}
+
+/*Ocultar textos en cabecera*/
+.comunidad>a,.cesta>a{
+	height:1.5em;
+}
+
+.co_correo a{
+	height: 1.25em;
+	padding-left: 1.25em;
+}
+.co_correo .correo{
+	display:none;
+}
+/*FIN Ocultar texto Correo en cabecera*/

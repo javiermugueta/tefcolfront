@@ -1,0 +1,647 @@
+
+
+/* PARA METER EN SEGUROMOVIL.CSS */
+
+[data-top='7'] { margin-top: 7px!important; }
+[data-top='25'] { margin-top: 25px!important; }
+[data-top='60'] { margin-top: 60px!important; }
+[data-bottom='60'] { margin-bottom: 60px!important; }
+[data-p-top='60'] { padding-top: 60px!important; }
+[data-p-top='70'] { padding-top: 70px!important; }
+[data-width='31'] {width: 31%!important;}
+
+
+/* COMUNES */
+
+.strong, strong, b {font-family: 'TelefonicaWeb-Bold'; }
+
+.celeste_bold {font-family: 'TelefonicaWeb-Bold'; color:#00a9e0;}
+
+.verde_bold a, .verde_bold {font-family: 'TelefonicaWeb-Bold'; color:#00c900;}
+
+.verde_bold:focus, .verde_bold:hover { color:#00c900; text-decoration: underline; }
+.animate-all{-moz-transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out;}
+
+
+
+
+
+/* Slider */
+
+section.slider-cyber:before {display: none;}
+
+section.slider-cyber h1 {font-size:44px;}
+
+section.slider-cyber h2 {font-size:30px; width: 100% !important;}
+
+section.slider-cyber .btn-group.bootstrap-select.stack.full-width.campo { width: 65%; }
+
+.gris-select {color: #787878;}
+
+section.slider-cyber .bs-caret {float: right;}
+
+section.slider-cyber .container-boton {padding-top: 0px;}
+
+section.slider-cyber .btn-info {padding: 0px 25px 5px 25px;}
+
+section.slider-cyber .btn-text {vertical-align: super; margin-right: 10px;}
+
+section.slider-cyber .btn-price {font-family: 'TelefonicaWeb-ExtraLight';}
+
+
+
+/* Fallos */
+
+#s-fallos i {line-height: 1.3;}
+
+#s-fallos i:before {color:#fff;}
+
+#s-fallos h3 {font-family: 'TelefonicaWeb-Regular'; color:#fff; line-height: .5; font-size: 20px;}
+
+#s-fallos p, #s-fallos li {font-family: 'TelefonicaWeb-ExtraLight'; color:#fff;line-height: 1.25; font-size: 18px;}
+
+
+/* Buscas otro modelo */
+
+#s-otromodelo {background-color: #f7f7f7;}
+
+#s-otromodelo p { font-family: 'TelefonicaWeb-Light'; font-size: 32px; line-height: 1.25; }
+
+#s-otromodelo img {margin-top: -75px;max-width: 74px;}
+
+.col-btn-modelo {margin-top: 7px;}
+
+
+
+/* Coberturas moviles */
+
+.col-coberturas-moviles-cabecera {    margin-left: 10%; margin-right: 10%;}
+
+.row-coberturas_moviles {display: flex;align-items: center;   flex-flow: row wrap;     text-align: center;}
+
+.col-coberturas_moviles {flex:1 24%;}
+
+.col-cobertura_icn1 { display:flex; justify-content: space-between;    padding: 0px;}
+
+.col-cobertura_icn1:after {content: ""; background-size: 30px; width: 27px; height: 1px; position: absolute; top: 48%; right: -32px; background-color: #a0a0a0; }
+
+.col-cobertura_icn1_first:after {display: none;}
+.col-cobertura_icn1_last:after {display: none;}
+
+.col-cobertura_icn1_first:before { content: ""; background-size: 39px; width: 39px; height: 10px; position: absolute; top: 49%; right: -45px; background: url(/seguro-movil/images/terminales/generales/linea-terminales.svg) top left no-repeat;}
+
+.col-cobertura_icn1_last:before { content: ""; background-size: 39px; width: 39px; height: 10px; position: absolute; top: 39%; right: -45px; background: url(/seguro-movil/images/terminales/generales/linea-terminales.svg) top left no-repeat;transform: rotatex(180deg);}
+
+.col-cobertura_icn1 i {font-size: 45px;}
+
+.col-cobertura_icn1 p {font-family: TelefonicaBold;margin: 0!important;text-align: right;}
+
+.col-cobertura_icn1 .ic_cob { margin-left:15px; font-size:45px; }
+
+.col-cobertura_icn1 .tetx_cob {display: flex;flex-direction: column;justify-content: center;width: 100%;}
+
+
+
+.col-cobertura_icn2 { display:flex; justify-content: space-between;    padding: 0px;}
+
+.col-cobertura_icn2:after {content: ""; display: table; background-size: 30px; width: 27px; height: 1px; position: absolute; top: 48%; left: -32px; background-color: #a0a0a0; }
+
+.col-cobertura_icn2_first:after {display: none;}
+.col-cobertura_icn2_last:after {display: none;}
+
+.col-cobertura_icn2_first:before { content: ""; background-size: 39px; width: 39px; height: 10px; position: absolute; top: 49%; left: -45px; background: url(/seguro-movil/images/terminales/generales/linea-terminales.svg) top left no-repeat;transform: rotatey(180deg);}
+
+.col-cobertura_icn2_last:before { content: ""; background-size: 39px; width: 39px; height: 10px; position: absolute; top: 39%; left: -45px; background: url(/seguro-movil/images/terminales/generales/linea-terminales.svg) top left no-repeat;transform: rotatex(180deg) rotatey(180deg);}
+
+.col-cobertura_icn2 i {font-size: 45px;}
+
+.col-cobertura_icn2 p {font-family: TelefonicaBold;margin: 0!important;text-align: left;}
+
+.col-cobertura_icn2 .ic_cob { margin-right:15px; font-size:45px; }
+
+.col-cobertura_icn2 .tetx_cob {display: flex;flex-direction: column;justify-content: center; width: 100%;}
+
+.movil_coberturas { transform: translateY(1%);}
+
+
+
+/* Bloque Coberturas */ 
+
+
+.col-bloque-cobertura {background-color: #fafafa; display: flex; justify-content: space-between; padding: 20px;}
+
+.col-bloque-cobertura .ic_bloque_cob {font-size: 80px; width: 35%; display: flex;flex-direction: column;justify-content: center;}
+
+.col-bloque-cobertura .tetx_bloque_cob {width: 65%; display: flex;flex-direction: column;justify-content: flex-start;}
+
+.col-bloque-cobertura .tetx_bloque_cob h4 {color: #000; font-family: 'TelefonicaWeb-Bold'; font-weight: normal; font-size: 1.8rem;line-height: 1;margin-bottom: 0px;}
+
+.col-bloque-cobertura .tetx_bloque_cob p {font-family: 'TelefonicaWeb-Light';font-size: 1.5rem; line-height: 1.3;margin-bottom: 0px;}
+
+
+/* Bloque 3 Circulos */
+
+
+.row-circ_azul, .row-circ_rosa, .row-circ_verde { display: flex; justify-content: center; align-items: center;}
+
+
+.row-circ_azul:before {  content: " "; background: url(/seguro-movil/images/terminales/generales/circ-azul.svg) center center no-repeat; height: 220px; position: absolute; width: 100%;  }
+
+.row-circ_rosa:before {  content: " "; background: url(/seguro-movil/images/terminales/generales/circ-rosa.svg) center center no-repeat; height: 220px; position: absolute; width: 100%;  }
+
+.row-circ_verde:before {  content: " "; background: url(/seguro-movil/images/terminales/generales/circ-verde.svg) center center no-repeat; height: 220px; position: absolute; width: 100%;  }
+
+
+.texto_3circ { width: 70%; position: absolute; display: flex; flex-direction: column; }
+
+
+section.services-cyber .texto_3circ h4 {color: #fff; font-family: 'TelefonicaWeb-Light'; font-weight: normal; font-size: 2rem; line-height: 1; margin-bottom: 20px; margin-top: 0;}
+
+section.services-cyber .texto_3circ p {color: #fff; font-family: 'TelefonicaWeb-Light';}
+
+
+
+
+
+/* Bloque Seguro Movil */
+
+section.services-cyber p, .services-cyber p { font-family: 'TelefonicaWeb-Light'; font-size: 17px; line-height: 1.25; }
+
+.circulo_nube:before {  content: " "; display: table; background: url(/seguro-movil/images/terminales/generales/circulo-nube.svg) top left no-repeat; background-size: 400px; padding: 0; height: 220px; position: absolute; top: 0; left: 4px; width: 100%; }
+
+section.services-cyber .circulo_rosa {padding-top: 65px;    padding-left: 15px;}
+
+section.services-cyber .circulo_rosa h5 {color: #fff; font-family: 'TelefonicaWeb-Light'; font-weight: normal; font-size: 2.3rem; line-height: 0.8; margin-bottom: 0px; margin-top: 0;} 
+
+section.services-cyber .circulo_rosa h4 {color: #fff; font-family: 'TelefonicaWeb-Light'; font-weight: normal; font-size: 4.2rem; line-height: 1; margin-bottom: 0px; margin-top: 0px;}
+
+section.services-cyber .nube_azul {padding-top: 60px;}
+
+section.services-cyber .nube_azul h4 {color: #fff; font-family: 'TelefonicaWeb-Light'; font-weight: normal; font-size: 2.3rem; line-height: 1; margin-bottom: 20px; margin-top: 0;}
+
+section.services-cyber .nube_azul p {color: #fff; font-family: 'TelefonicaWeb-Light';}
+
+
+.nube-azul-1 {position: absolute; width: 400px; height: 200px; display: block; /*background: url(../terminales/css/img/circulo-nube.svg) top right no-repeat;*/ padding: 0; top: 0; left: 80px; }
+
+.texto_nube_azul1 { width: 200px; position: absolute; top: 50px; left: 60px; }
+
+.texto_nube_azul1 h4, .texto_nube_azul1 p {color:#fff !important;}
+
+.texto_circulo_rosa1 { position: absolute; width: 100px; height: 100px; left: 15px; top: 57%; display: flex; align-items: center; text-align: center; flex-direction: column; }
+
+.texto_circulo_rosa1 .txt_precio { color: #fff;font-family: 'TelefonicaWeb-Light'; font-weight: normal; font-size: 4.2rem; line-height: 1; margin-bottom: 0px; margin-top: 0px; }
+
+.texto_circulo_rosa1 .txt_desde { color: #fff; font-family: 'TelefonicaWeb-Light'; font-weight: normal; font-size: 2.3rem; line-height: 0.8; margin-bottom: 0px; margin-top: 0; }
+
+
+
+
+.nube-azul-2 {position: absolute; width: 400px; height: 200px; display: block; /*background: url(../terminales/css/img/circulo-nube.svg) top right no-repeat;*/ padding: 0; top: 0; left:0px;/*right: 4px;*/ }
+
+.texto_nube_azul2 { width: 200px; position: absolute; top: 50px; left: 95px; }
+
+.texto_nube_azul2 h4, .texto_nube_azul2 p {color:#fff !important;}
+
+.texto_circulo_rosa2 { position: absolute; width: 100px; height: 100px; left: 328px;/*right: 15px;*/ top: 57%; display: flex; align-items: center; text-align: center; flex-direction: column; }
+
+.texto_circulo_rosa2 .txt_precio { color: #fff;font-family: 'TelefonicaWeb-Light'; font-weight: normal; font-size: 4.2rem; line-height: 1; margin-bottom: 0px; margin-top: 0px; }
+
+.texto_circulo_rosa2 .txt_desde { color: #fff; font-family: 'TelefonicaWeb-Light'; font-weight: normal; font-size: 2.3rem; line-height: 0.8; margin-bottom: 0px; margin-top: 0; }
+
+.circulo_nube2:before {  content: " "; display: table; background: url(/seguro-movil/images/terminales/generales/circulo-nube.svg) top right no-repeat; background-size: 400px; padding: 0; height: 220px; position: absolute; top: 0; left: 36px; width: 100%;transform: rotatey(-180deg);}
+
+
+
+
+/* Bloque Disfruta */
+
+.col-disfruta-terminales0 h2 {color: #00a9e0; font-size: 40px; line-height: 1; margin-bottom: 15px;}
+
+.col-disfruta-terminales0 p {font-size: 20px;}
+
+.col-disfruta-terminales1 h3, .col-disfruta-terminales1-last h3 {color: #000;font-weight: normal;font-family: 'TelefonicaWeb-Bold';font-size: 1.8rem;line-height: 1.8;}
+
+.img-disfruta-terminales {width:190px;}
+
+.col-disfruta-terminales1:after {    background: url(/seguro-movil/images/terminales/generales/flecha-azul-derecha.svg) center left no-repeat transparent; content: ""; background-size: 44px; width: 45px; height: 57px;     position: absolute;
+    top: 30%; right: -23px;}
+
+
+/* Bloque recomendaciones */
+
+section.recomend blockquote { font-size: 25px; border: 0; padding: 0; line-height: 1.25; font-family: 'TelefonicaWeb-Light'; }
+
+section.recomend p { color: #00a9e0; font-size: 24px; }
+
+.publi { position: absolute; top: 0; left: 15px; background-color: rgba(255, 255, 255, 0.59); padding: 4px; font-size: 10px; }
+
+
+/* Bloque Por qué elegirnos */
+
+
+#s-porqueelegirnos {background: #fff;}
+
+#s-porqueelegirnos i {color: #00a9e0;}
+
+#s-porqueelegirnos p { color: #000;}
+
+
+/* Bloque No dejes */
+
+#s-no-dejes p { font-family: 'TelefonicaWeb-Light'; font-size: 32px; line-height: 1.25; }
+
+.row-no-dejes {background-color: #efefef; }
+
+.fixed-modelo{position: fixed;bottom: 0;width: 100%;z-index: 999;}
+
+.fixed-modelo-hide{bottom: -300px;}
+
+
+
+/* Bloque Marcas */
+
+.txt-asterisco {max-width: 300px; text-align: center; margin-top: 10px; }
+.hr-blue { border-top: 1px solid #00a9e0;    padding-top: 30px!important;}
+.h2marcas {font-family: 'TelefonicaWeb-Light' !important; margin-bottom: 20px !important; margin-top: 40px;font-size: 30px !important;}
+.h2marcas-marca {font-family: 'TelefonicaWeb-Regular' !important;}
+.fotos-marcas {margin-top: 30px;}
+.img-cabecera-marcas { margin-bottom: -20px;}
+
+.moviles-listado {margin-top: 0px;}
+.imgmovileslistado {width: 50%; max-width: 124px;}
+.h3listadotelefono {color: #4b4b4b;}
+.h3movileslistado {font-family: 'TelefonicaWeb-Regular' !important;color: #7b7b7b !important; font-size: 1.8rem; line-height: 1.8;}
+.colnoafter:after {display: none;}
+#s-marcaresumen {background-color: #EEEFF0; padding-bottom: 80px;}
+section.marcaresumen p { font-size: 20px !important; color: #4b4b4b; line-height: 1.3; font-family: 'TelefonicaWeb-Light'; }
+section.marcaresumen h3 {     font-size: 35px; line-height: 1; margin-bottom: 40px;}
+.logomarca {width: 30%;}
+.logoapple {margin-bottom: 30px;}
+section.slider-cyber .btn-calcular {padding: 15px 25px 5px 25px;}
+section.slider-cyber .btn-calculart-text {text-align: center; margin-right: 5px;}
+
+.btn_detalle_term {font-size: 18px;     padding: 6px 30px;}
+
+.caract-marca {font-family: 'TelefonicaWeb-Light'; font-size: 17px; line-height: 1.25; color: #202020; text-align: left;}
+.col-sm-3-centrado {margin-left: 38%; margin-right: auto;}
+
+
+
+/* comunes */ 
+
+.rating span{font-size: 35px; color:#ffb300;}
+.rating{ display: inline-block; border-bottom: 1px solid #e0e0e0;padding-bottom: 10px;}
+section.recomend p.opiniones{font-size: 16px;color:#4b4b4b;}
+.overhidden {overflow: hidden;}
+
+
+/*********** RESPONSIVE *****************************************************************************************************/
+
+
+@media only screen and  (max-width: 1300px) {
+
+
+	.row-coberturas_moviles {width: 95% !important}
+	
+	.col-coberturas_moviles2 {padding-right: 6px !important;}
+
+	.col-coberturas_moviles3 {padding-left: 6px !important;}
+
+	section.slider-cyber h2 { width: 100% !important;     font-size: 25px !important;}
+
+	/*.img-cabecera-marcas { margin-bottom: -102px; width: 100% }*/
+
+
+}
+
+
+@media only screen and  (max-width: 1060px) {
+
+	.row-nubes {width: 90% !important;}
+
+	section.slider-cyber h1 { font-size: 34px !important; }
+
+
+
+@media only screen and (min-width: 1023px) and (max-width: 1024px) {
+
+	.img-cabecera-marcas { margin-bottom: -65px; width: 103%; }
+
+
+}
+
+
+
+@media only screen and  (max-width: 980px) {
+
+	section.slider-cyber {padding: 0;height: 450px;}
+
+	section.slider-cyber h1 { font-size: 30px !important; }
+
+	section.slider-cyber h2 {font-size: 25px !important;}
+
+	/*section.slider-cyber .btn-modelo { width: 70% !important;}*/
+
+	section.slider-cyber .btn-group.bootstrap-select.stack.full-width.campo { width: 85%;}
+
+	.btn-info {font-size: 19px;}
+
+	#s-fallos i {font-size: 55px;line-height: 1.3; }
+
+	#s-fallos h2 {font-size: 2.5rem;}
+
+	#s-fallos h3 {font-size: 16px;}
+
+	#s-fallos p, #s-fallos li {font-size: 12px;}
+
+	#s-otromodelo p {font-size: 20px;}
+
+	.col-btn-modelo {margin-top: 5px;}
+
+	.col-btn-modelo .btn-info {font-size: 16px;}
+
+	.row-coberturas_moviles {width: 90% !important;}
+
+	.col-cobertura_icn1 .ic_cob, .col-cobertura_icn2 .ic_cob {font-size: 30px;}
+
+	.col-cobertura_icn1 .tetx_cob, .col-cobertura_icn2 .tetx_cob {font-size: 12px; line-height: 12px;}
+
+	.movil_coberturas { transform: translateY(3%);}
+
+	.col-cobertura_icn1:after {width: 24px;right: -29px;}
+
+	.col-cobertura_icn2:after {width: 24px;left: -29px;}
+
+	.col-coberturas_moviles1 {padding-left: 0px !important;}
+
+	.col-coberturas_moviles2 {padding-right: 6px !important;}
+
+	.col-coberturas_moviles3 {padding-left: 6px !important;}
+
+	.col-coberturas_moviles4 {padding-right: 0px !important;}
+
+	.col-bloque-cobertura {padding: 10px;}
+
+
+	.row-bloque-coberturas {width: 100% !important;margin-top: 12px!important;}
+
+	.col-bloque-cobertura .tetx_bloque_cob h4 {font-size: 1.4rem;}
+
+	.col-bloque-cobertura .tetx_bloque_cob p {font-size: 1.2rem;}
+
+	.col-bloque-cobertura .ic_bloque_cob {width: 25%; justify-content: inherit; padding-top: 10px;}
+
+	.col-bloque-cobertura .tetx_bloque_cob {width: 75%;}
+
+	.col-bloque-cobertura .ic_bloque_cob { font-size: 40px;}
+
+	.col-bloque-cobertura1 { margin-right: 10px!important;}
+
+	.col-bloque-cobertura2 { margin-left: 10px!important;margin-right: 10px!important;}
+
+	.col-bloque-cobertura3 { margin-left: 10px!important;}
+
+	section.services-cyber p, .services-cyber p {font-size: 14px;}
+
+	.row-nubes {width: 90% !important;}
+
+	.circulo_nube:before, .circulo_nube2:before {background-size: 300px;}
+
+	.texto_circulo_rosa1 {left: -1px; top: 42%;}
+
+	.texto_nube_azul1 { top: 30px; left: 5px;}
+
+	.texto_circulo_rosa2 {left: 241px; top: 42%;}
+
+	.texto_nube_azul2 { top: 30px;     left: 55px;}
+
+	.texto_circulo_rosa1 .txt_desde, .texto_circulo_rosa2 .txt_desde {    font-size: 1.3rem;}
+
+	.texto_circulo_rosa1 .txt_precio, .texto_circulo_rosa2 .txt_precio {    font-size: 3.2rem;}
+
+	.texto_nube_azul1 p, .texto_nube_azul2 p {font-size: 13px!important;}
+
+	.texto_nube_azul1 h4, .texto_nube_azul2 h4 {font-size: 1.8rem;}
+
+	.img-disfruta-terminales { width: 120px;}
+	
+	.col-disfruta-terminales1 h3, .col-disfruta-terminales1-last h3 {    font-size: 1.2rem;}
+
+	.col-disfruta-terminales1:after {background-size: 24px; top: 20%;right: -33px;}
+
+	section.recomend blockquote {font-size: 22px;}
+
+	section.recomend p {font-size: 20px;}
+
+	.row-coberturas {width: 90% !important;}
+
+	#s-comofunciona .box-gris {    min-height: 185px;}
+
+	#s-comofunciona .box-gris h3 {font-size: 1.5rem;}
+
+	#s-comofunciona .s-ico {font-size: 65px !important;}
+
+	#s-comofunciona .col-comofunciona:after { background: url(https://segurossvn.renovatio-comunicacion.com/seguro-movil/images/ciber/ico-flecha.jpg) center left no-repeat transparent; content: ""; background-size: 30px; width: 35px; height: 57px; position: absolute; top: 30%; right: -20px; transform: rotate(0deg); left: 94%;}
+
+	.box-grisX h2 { font-size: 25px !important;}
+
+	ul.lista-check {margin-top: 20px !important;margin-bottom: 20px !important;}
+
+	.box-grisX li {font-size: 18px !important;}
+
+	.ico-store { height: 40px; padding-right: 15px; }
+
+	#s-no-dejes p {font-size: 24px;}
+
+	.col-boton-final {margin-top: 3px !important;}
+
+	.img-cabecera-marcas { margin-bottom: -80px; width: 100% }
+
+	.btn_detalle_term {font-size: 15px;     padding: 6px 20px;}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and  (max-width: 768px) {
+
+	.img-cabecera-marcas { margin-bottom: -55px; width: 100%; }
+
+	section.slider-cyber { padding: 0; height: 400px; }
+
+	.txt-asterisco {max-width: 240px; }
+
+	.logomarca {width: 45% !important;}
+
+	section.slider-cyber h1 { margin-top: 30px; }
+
+	.row-razones { width: 100%; }
+
+	.caract-marca {font-family: 'TelefonicaWeb-Light'; font-size: 14px; line-height: 1.25; color: #202020; text-align: left;}
+
+	.h3movileslistado { font-family: 'TelefonicaWeb-Regular' !important; color: #7b7b7b !important; font-size: 1.2rem; line-height: 1.8; }
+
+
+
+
+}
+
+
+
+
+@media only screen and  (max-width: 767px) {
+
+
+	section.slider-cyber { padding: 0;height: 550px;     background: none;} 
+
+	.slider-cyber-texto { margin-left: 2em; margin-right: 2em;}
+
+	section.slider-cyber h1 { font-size: 26px; }
+
+	section.slider-cyber h2 {font-size: 23px !important; margin: 15px 0px 20px 0px!important;}
+
+	section.slider-cyber .btn-group.bootstrap-select.stack.full-width.campo { width: 100%;}
+
+	section.slider-cyber .btn-info {font-size: 1.75rem; padding-top: 10px; padding-bottom: 10px;}
+
+	.row-coberturas {    width: 100% !important;margin-top: 0px !important;}
+
+	.nube-azul-1 {    width: 200px;}
+
+	.nube-azul-2 {    width: 200px;}
+
+	.row-coberturas_moviles {width: 100% !important;}
+
+	.col-coberturas-cabecera {margin-top: 0px!important;}
+
+	.col-bloque-cobertura {width: 100% !important; margin:0px 0px 20px 0px!important;}
+
+	.col-coberturas_moviles {flex:1 49%;}
+
+	.col-coberturas_moviles1 {padding-left: 0px !important;}
+
+	.col-coberturas_moviles2 {padding-right: 0px !important;}
+
+	.col-coberturas_moviles3 {padding-left: 0px !important;}
+
+	.col-coberturas_moviles4 {padding-right: 0px !important;}
+
+	.col-cobertura_icn1 .tetx_cob, .col-cobertura_icn2 .tetx_cob {font-size: 10px; line-height: 10px;}
+
+	.col-cobertura_icn2 .ic_cob { margin-right: 10px; }
+
+	.row-otromodelo {width: 100%!important;margin-bottom: 30px!important;}
+
+	.col-otro-modelo-txt {padding-left: 0px; padding-right: 0px; margin-bottom: 10px;}
+
+	.col-coberturas-moviles-cabecera {padding-left: 0px; padding-right: 0px; margin-bottom: 10px !important;}
+
+	.row-bloque-coberturas {margin-top: 0px !important; padding-top: 0px!important;}
+
+	.col-bloque-cobertura .ic_bloque_cob { font-size: 50px;padding-left: 5px;}
+
+	.col-disfruta-terminales0 {padding-left: 0px; padding-right: 0px; margin-bottom: 10px !important;}
+
+	.col-disfruta-terminales0 h2 {    font-size: 2.4rem;}
+
+	.col-disfruta-terminales1 {margin-bottom: 50px;}
+
+	.col-disfruta-terminales1 h3, .col-disfruta-terminales1-last h3 {font-size: 1.4rem;}
+
+	.col-disfruta-terminales1:after {background-size: 30px; top: 100%; right: -33px; left: 42%; transform: rotate(90deg);}
+
+	section.recomend blockquote { font-size: 17px; margin-top: 20px;} 
+
+	section.recomend p { font-size: 18px; }
+
+	#s-comofunciona .col-comofunciona:after {top: initial; right: initial; bottom: -55px; transform: rotate(90deg); left: 45%;}
+
+	#s-comofunciona .box-gris h3 { font-size: 2rem; }
+
+	.col-seguro-movil-medida-txt {margin-top: 20px !important;}
+
+	.ico-store { height: 40px; padding-right: 12px; }
+
+	#s-no-dejes {background-color: #efefef;}
+
+	#s-no-dejes p { text-align: center; }
+
+	.col-boton-final { text-align: center;     margin-bottom: 10px;}
+
+	.img-disfruta-terminales { width: 230px;}
+
+	.texto_nube_azul2 {    top: 30px; left: 60px;}
+
+	section.slider-cyber h1 { font-size: 29px !important; }
+
+	.img-cabecera-marcas { margin-bottom: -20px; width: 100%; margin-top: 30px; }
+
+	.logomarca { width: 60% !important; }
+
+	section.marcaresumen h3 { font-size: 28px; line-height: 1; margin-bottom: 40px; }
+
+	section.marcaresumen p { font-size: 18px !important; }
+
+	.col-coberturas_moviles2, .col-coberturas_moviles3 {z-index: 1;}
+
+	.btn_detalle_term {font-size: 20px;     padding: 10px 40px;}
+
+	.txt-asterisco { max-width: 350px; }
+
+	.caract-marca {text-align: center;}
+
+	.h3movileslistado { font-family: 'TelefonicaWeb-Regular' !important; color: #7b7b7b !important; font-size: 2rem; line-height: 1.8; }
+
+	.col-sm-3-centrado {margin-left: auto; margin-right: auto;}
+
+	.imgmovileslistado {width: 50%; max-width: 50%;}
+
+}
+
+
+
+@media only screen and  (max-width: 550px) {
+
+
+	section.slider-cyber { padding: 0;height: auto;     background: none;} 
+	.movil_cabecera {width: 50%;}
+	.col-disfruta-terminales1 h3, .col-disfruta-terminales1-last h3 {font-size: 2rem;}
+
+	.row-coberturas .col-cober{padding:0 10px!important; width: 49%;}
+	.row-coberturas .col-cober h3{line-height: 1!important;}
+	.col-row-coberturas{
+		display: flex; flex-flow: wrap;  /*flex: 2 45%;*/
+		 display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex; 
+-webkit-box-orient: horizontal; 
+-webkit-box-direction: normal; 
+-webkit-flex-direction: row; 
+    -ms-flex-direction: row; 
+        flex-direction: row;
+-webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+	}
+
+	.container-boton{text-align: center}
+	.container-boton .btn-text{display: block;}
+
+	.col-fotos-marcas-1, .col-fotos-marcas-2 {margin-bottom: 60px;}
+	
+}
+
+
+
+
+

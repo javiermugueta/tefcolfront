@@ -1,0 +1,311 @@
+[data-bottom='60'] { margin-bottom: 60px!important; }
+[data-p-top='65'] { padding-top: 65px!important; }
+
+.text-white {color: #fff !important;}
+
+.text-white h3 {color: #fff !important;}
+
+section.slider-cyber-todo:before {
+    background: url(../images/ciber/ima-total.jpg) top left no-repeat #fff;
+    padding: 0;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-left: -170px;
+}
+
+section.slider-cyber-dano:before {
+    background: url(../images/ciber/ima-dano02.jpg) top left no-repeat #fff;
+    padding: 0;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-left: -170px;
+}
+
+section.slider-cyber-robo:before {
+    background: url(../images/ciber/ima-robo.jpg) top left no-repeat #fff;
+    padding: 0;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-left: -170px;
+}
+
+section.slider-cyber-robo h2, section.slider-cyber-dano h2 {width: 70%}
+
+
+#s-personaliza { background: #00a9e0; padding-top: 0px; padding-bottom: 0px; }
+
+section.services-cyber .row-boton-personaliza-blue { margin-bottom: 0px; }
+
+
+section.services-cyber .row-services .box-blue {
+    width: 625px;
+    margin: 0 auto;
+    background-color: #00a9e0;
+    padding: 30px;
+    margin-top: 0px;
+    border-radius: 4px;
+    line-height: 1;
+    font-size: 30px;
+}
+
+section.services-cyber .row-services .box-blue a{vertical-align: baseline; margin-left: 30px; margin-top: 0}
+
+
+
+section.slider-cyber-quieres:before {
+    background: url(../images/ciber/Chico_gorra.png) bottom center no-repeat #ffbe00;
+    padding: 0;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    margin-left: -75%;
+    background-color: #ffbe00;
+
+}
+
+
+.btn-info-otras {
+    background: #5bc500;
+    border: 1px solid #5bc500;
+    font-weight: normal;
+    text-shadow: none;
+    padding: 10px 45px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'TelefonicaWeb-Bold';
+    font-size: 25px;
+    border-radius: 8px;
+    margin: 0;
+    color: #fff;
+
+}
+
+
+
+
+
+.btn-info-otras:hover {
+    background: #fff;
+    border: 1px solid #5bc500;
+    font-weight: normal;
+    text-shadow: none;
+    padding: 10px 45px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'TelefonicaWeb-Bold';
+    font-size: 25px;
+    border-radius: 8px;
+    margin: 0;
+    color: #5bc500;
+}
+
+.btn-info-otras-01, .btn-info-otras-01:hover {margin-right: 30px !important; margin-left: 30px !important;}
+
+.text-service-dano-1 {padding-top: 20px;}
+
+.box-service-robo-2 { padding-top: 20px; }
+
+.box-service-2 .txt-0 {
+    font-size: 20px;
+    font-family: 'TelefonicaWeb-Bold';
+    color: #757575;
+    vertical-align: bottom;
+    margin-left: -70px;
+}
+
+
+.ico-rotura-lsd { vertical-align: bottom; position: relative; bottom: -30px;}
+
+.ico-robo-lsd { vertical-align: bottom; position: relative; bottom: -5px;     margin-top: 30px;}
+
+.box-service-2 .txt-4 {
+    font-size: 72px;
+    color: #757575;
+    font-family: 'TelefonicaWeb-ExtraLight';
+        margin-right: 10px;
+    
+}
+
+.box-service-2 .txt-41 {
+    font-size: 48px;
+    color: #757575;
+    font-family: 'TelefonicaWeb-ExtraLight';
+}
+
+.box-service-2 .txt-42 {
+    font-size: 75px;
+    color: #757575;
+    font-family: 'TelefonicaWeb-ExtraLight';
+}
+
+.box-service-2 .txt-5 {
+    
+    color: #757575;
+    font-family: 'TelefonicaWeb-Bold';
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.ico-preciorotura-lsd { vertical-align: bottom; position: relative; bottom: 0px;}
+
+
+
+.box-service-1 .txt-1 {
+    color: #757575;
+    font-size: 72px;
+    font-family: 'TelefonicaWeb-ExtraLight';
+}
+
+.box-service-1 .plus {
+    color: #757575;
+    font-size: 50px;
+    font-family: 'TelefonicaWeb-ExtraLight';
+}
+
+.box-service-1 .txt-2 {
+    font-size: 20px;
+    color: #757575;
+    font-family: 'TelefonicaWeb-Bold';
+}
+
+.box-service-1 .txt-22 {
+    font-size: 18px;
+    color: #757575;
+    font-family: 'TelefonicaWeb-Bold';
+}
+
+
+section#s-personaliza { overflow: hidden; }
+
+.overhidden { overflow: hidden; }
+
+.mw100 {max-width: 100% }
+
+/**************** MEDIA **************/
+
+
+@media only screen and (max-width: 1024px) {
+
+    section.slider-cyber-quieres h3 {text-align: center; font-size: 40px;}
+
+
+
+}
+
+
+
+
+@media only screen and  (max-width: 900px) {
+
+    main { padding-top: 60px; }
+    
+    section.slider-cyber-dano:before { margin-left: -120px; background: url(../images/ciber/ima-dano02.jpg) top right no-repeat #fff;}
+
+    section.slider-cyber-robo:before { margin-left: -120px; background: url(../images/ciber/ima-robo.jpg) top right no-repeat #fff;}
+
+    section.slider-cyber-todo:before { margin-left: 0px; background: url(../images/ciber/ima-total.jpg) top right no-repeat #fff;}
+
+    section.slider-cyber h2 {width: 90%; font-size: 30px;}
+
+    section.slider-cyber h1 { font-size: 50px; }
+
+    section.slider-cyber h3 {text-align: left;}
+
+    section.slider-cyber-quieres h3 {text-align: center; font-size: 40px;}
+
+    .btn-info-otras-01, .btn-info-otras-01:hover { margin-right: 0px !important; margin-left: 30px !important; margin-bottom: 20px;}
+
+    .btn-info-otras-01-home, .btn-info-otras-01-home:hover { margin-bottom: 0px;}
+
+    .btn-info-otras-02, .btn-info-otras-02:hover { margin-right: 0px !important; margin-left: 30px !important;}
+
+    .box-razones h3 {font-size: 28px;}
+
+    .text-service-dano-1 { padding-top: 0px; }
+
+    .box-service-robo-2 { padding-top: 30px; }
+
+
+
+}
+
+
+
+
+
+@media only screen and  (max-width: 550px) {
+
+    section.slider-cyber h1 { font-size: 37px; }
+
+    section.slider-cyber .caja-slider { padding-top: 30px; }
+
+    main { padding-top: 54px; } 
+
+    section.slider-cyber-dano:before {background: none;height: auto;}
+
+    section.slider-cyber-robo:before {background: none;height: auto;}
+
+    section.slider-cyber-todo:before {background: none;height: auto;}
+
+    section.slider-cyber h2 {width: 100%;     font-size: 23px; }
+
+    section.slider-home-dano { height: auto; background: url(../images/ciber/ima-dano02-mob.jpg) bottom center no-repeat #fff;}
+
+    section.slider-home-robo { height: auto; background: url(../images/ciber/ima-robo-mob.jpg) bottom center no-repeat #fff;}
+
+    section.slider-home-todo { height: auto; background: url(../images/ciber/ima-todo-mob.jpg) bottom center no-repeat #fff;}
+
+    .box-service-1 .txt-1 {font-size: 54px;}
+
+    .box-service-1 .plus {font-size: 30px;}
+
+    .pl10mob {padding-left: 10px !important;}
+
+    .box-razones h3 { font-size: 28px; width: 83%; margin-left: auto; margin-right: auto; }
+
+    section.slider-cyber-quieres:before { background: url(../images/ciber/Chico_gorra-mob.png) bottom center no-repeat #ffbe00; }
+
+    .btn-info-otras-01, .btn-info-otras-01:hover { margin-right: auto !important; margin-left: auto !important; margin-bottom: 20px; }
+
+    .btn-info-otras-02, .btn-info-otras-02:hover { margin-right: 0px !important; margin-left: 0px !important; }
+
+    .btn-info-otras-01-home, .btn-info-otras-01-home:hover { margin-bottom: 0px;     margin-right: 10px !important;}
+
+    section.services-cyber .row-services .box-blue {background-color: transparent; margin-top: 15px; margin-bottom: 15px; width: 100%; padding: 30px 0;}
+
+    section.services-cyber .row-services .box-blue a {    margin-left: 0px;}
+
+    section.slider-cyber h3 { font-size: 24px; }
+
+    section.slider-cyber-quieres h3 {text-align: center; font-size: 40px;}
+
+    .btn-porque-el {margin-top: 20px !important;}
+
+
+}
+
+
+@media only screen and  (max-width: 380px) {
+
+    .btn-info-otras-01-home, .btn-info-otras-01-home:hover { margin-bottom: 0px;     margin-right: auto !important;}
+
+
+}
+
+@media only screen and  (max-width: 369px) {
+
+    .btn-info-otras-01-home, .btn-info-otras-01-home:hover { margin-bottom: 20px;     margin-right: auto !important;}
+
+
+}

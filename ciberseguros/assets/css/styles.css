@@ -1,0 +1,322 @@
+/* resets */
+*{margin:0; padding:0}
+.clear{clear:both}
+a img{border:none}
+a{text-decoration:none;color:#00AFF2;}
+a:hover{text-decoration: underline;}
+ul{list-style:none}
+
+
+/* end resets */
+@font-face {
+    font-family: 'telefonica_textregular';
+    src: url('fonts/telefonicatext-regular-webfont.eot');
+    src: url('fonts/telefonicatext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/telefonicatext-regular-webfont.woff') format('woff'),
+         url('fonts/telefonicatext-regular-webfont.ttf') format('truetype'),
+         url('fonts/telefonicatext-regular-webfont.svg#telefonica_textregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Telefonica Headline Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TelefonicaFonts/TelefonicaHeadline-Light.ttf'), format('ttf');
+}
+@font-face {
+  font-family: 'Telefonica text';
+  font-style: normal;
+  font-weight: 400;
+  src: local('TelefonicaFonts/TelefonicaText-Regular.ttf'), format('ttf');
+}
+
+body{
+	margin:0px;
+	background:#000;
+	font-family: 'telefonica_textregular',Arial,Helvetica,sans-serif;
+	font-size:12px;
+	color: #3A7485;
+}
+
+.full-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main_column {
+	min-height:100%;
+    background:#588dbf;
+	background-image:url(../images/father-son.jpg);	
+	font-family: 'telefonica_textregular',Arial,Helvetica,sans-serif;
+    background-size: cover;
+}
+
+
+#header {
+	width:1005px;
+	margin-left: auto;
+	margin-right: auto;
+	height:111px;
+	background-image:url(../images/bgd_logo.png);	
+	font-family: 'telefonica_textregular',Arial,Helvetica,sans-serif;
+}
+#header .logo{
+	float:left;
+	font-weight: bold;
+    margin: 37px 0 0 50px;
+	font-family: 'telefonica_textregular',Arial,Helvetica,sans-serif;
+	font-size:15px;
+}
+#header .menu{
+	float:right;
+	font-weight: bold;
+    margin: 28px 50px 0 0;
+	font-family: 'telefonica_textregular',Arial,Helvetica,sans-serif;
+	font-size:15px;
+	font-family: 'telefonica_textregular',Arial,Helvetica,sans-serif;
+}
+
+#content_top {
+	width:1005px;
+	height:42px;
+	margin-top:10px;
+	/*background-image:url(../images/bg_content_top.png);*/
+    
+}
+#content{
+	width:975px;
+	min-height:510px;
+	background-image:url(../images/bg_content.png);
+	color: #3A7485;
+	padding:15px 15px;
+}
+#map{
+	display:none;
+	float:left;
+	width:332px;
+	height:441px;
+}
+#map img{
+	margin-top:43px;
+	margin-left:44px;
+}
+#hpslider{
+	position:absolute;
+	z-index: 100;
+	margin-left:10px;
+	width:333px;
+	height:500px;
+	border: 5px solid #ffffff;
+box-shadow: 0 0 5px #b7b7b7;
+}
+#hpslider img {position: absolute;}
+#hpslider IMG.active {
+    z-index:80;
+}
+
+#hpslider IMG.last-active {
+    z-index:79;
+}
+#main_content{
+    float:right;
+    width:563px;
+    min-height: 493px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding:37px 1px 37px 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+ol li{
+    text-indent: 2px;
+    color: #3A7485;
+	line-height: 1.1em;
+	font-size: 1.1em;
+	letter-spacing: 0;
+	margin: 5px 0 8px 20px;
+	word-spacing: 0px;
+	text-align: left;
+}
+/*
+#content_bottom {
+	width:925px;
+}*/
+
+#footer{
+	width:1005px;
+	margin-left: auto;
+	margin-right: auto;
+	height:95px;
+	margin-top:50px;
+	/*background-image:url(../images/bg_footer2.png)*/
+	background-color: #004250;
+}
+
+.clear{
+	clear:both;
+}
+
+#content h2 {
+	font-weight: normal;
+	font-size: 32px;
+	margin-bottom: 20px;
+	color: #0C5C8A;
+	line-height: 0.9em;
+	letter-spacing: -1px;
+}
+#content h3 {
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+#content p {
+	color: #3A7485;
+	line-height: 1.3em;
+	font-size: 1.1em;
+	letter-spacing: 0;
+	margin: 5px 0 8px;
+	word-spacing: 0px;
+	text-align: justify;
+}
+
+#content ul li {
+	list-style:disc;
+	list-style-position:inside;
+	margin-bottom:5px;
+	color:#3A7485;
+}
+#content ul li >ul li{
+	padding-left:25px;
+}
+
+/*Company name*/
+#company{
+margin-top: -11px;
+float: left;
+margin-left: 665px;
+height:50px;
+}
+#company span{
+color: white;
+font-family: 'telefonica_textregular',Arial,Helvetica,sans-serif;
+letter-spacing: normal;
+font-size:25px;
+}
+/*End company name*/
+
+/*Menu*/
+
+div.menu {
+	
+}
+div.menu ul li {
+    background: url("../images/menu_spacer.png") no-repeat right center transparent;
+    color:#FFF;
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 9px;
+    vertical-align: middle;
+}
+div.menu ul li.last {
+    background: none;
+}
+
+div.menu ul li a {
+    color:#FFF;
+	text-decoration:none;
+}
+div.menu ul li.active a, div.menu ul li a:hover{
+	text-decoration:none;
+	color:#5dcde9;
+}
+
+
+div.menu.bottom li.first {
+	background-position:right top;
+}
+div.menu.bottom {
+	 padding-top: 37px;
+	 font-size:13px;
+}
+
+div.bottom_menu ul.menu li a, div.bottom_menu ul.menu li.copy_right{
+    margin-top: 11px;
+    background: url("../../images/locale/menu_spacer_bottom.png") no-repeat right top transparent;
+}
+
+/*End menu*/
+
+/*MAP TITLE*/
+div.map_title{
+	padding-left:10px;
+	height:43px;
+	position:relative;
+}
+div.map_title.top{
+	background: url("../images/map_title_top.png") no-repeat 0 50%;
+}
+div.map_title.bottom{
+	background: url("../images/map_title_bottom.png") no-repeat;
+}
+
+div.map_title.top div.r{
+	background: url("../images/map_title_top.png") no-repeat 100% 50%;
+}
+div.map_title.bottom div.r{
+	background: url("../images/map_title_bottom.png") no-repeat 100% 50%;
+}
+div.map_title div.r{
+	float:left;
+	padding-right:10px;
+	height:43px;
+	width:auto;
+}
+
+div.map_title div.r span{
+	display:block;
+	height:43px;
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+}
+div.map_title.top div.r span{
+	background: url("../images/fleche_top.png") no-repeat 50% 100%;
+	line-height:34px;
+}
+div.map_title.bottom div.r span{
+	background: url("../images/fleche_bottom.png") no-repeat 50% 0;
+	line-height:52px;
+}
+#europe td{
+height: 31px;
+padding-left: 5px;
+vertical-align: top
+}
+
+/*END MAP TITLE*/
+
+/* Replace text by images */
+h3.tohide {
+	width: 216px; height: 55px;
+	background: url("/img/call.png") no-repeat;
+	}
+	h3.tohide span {
+		display: block;
+		width: 0;
+		height: 0;
+		overflow: hidden;
+	}
+img#home {
+vertical-align: middle;
+padding-right:5px;
+ }
+.pagebreak .disabled{cursor:unset;text-decoration:none !important;color:#3a7485}
+.pagebreak .disabled:hover{text-decoration:none !important;}
+
+.logoTelefonica{
+	width: 25%;
+}
